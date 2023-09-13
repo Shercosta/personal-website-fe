@@ -2,16 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import TextButton from "./components/TextButton";
-import Icon from "./components/Icon";
-import { IconButton, Button } from "@mui/material";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import Navigation from "./components/Navigation";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Navigation></Navigation>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -22,15 +20,9 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        {/* <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button> */}
-        {/* <TextButton text={"Works"}></TextButton>
-        <Icon></Icon> */}
-        <Button variant="outlined">Contact</Button>
-        <IconButton color="inherit">
-          <InstagramIcon></InstagramIcon>
-        </IconButton>
+        </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
