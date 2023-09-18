@@ -9,7 +9,10 @@ function Navigation() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container className="">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="order-2 order-lg-0">
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="order-2 order-lg-0 width-40"
+        >
           <Nav className="me-auto">
             <Nav.Link>
               <Link to={"/"} className="text-reset text-decoration-none">
@@ -31,7 +34,10 @@ function Navigation() {
         <Navbar.Brand className="order-1 order-lg-0">
           <FaSun></FaSun>
         </Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav" className="order-3 order-lg-0">
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="order-3 order-lg-0 width-40"
+        >
           <Nav className="ms-auto">
             <Nav.Link>
               <FaInstagram></FaInstagram>
