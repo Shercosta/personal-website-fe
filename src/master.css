@@ -6,3 +6,15 @@
 .size-fit {
   max-width: fit-content;
 }
+
+/* small screen and below */
+@media screen and (max-width: 787px) {
+}
+
+/* big screen and above */
+@media screen and (min-width: 768px) {
+  .width-40 {
+    min-width: fit-content;
+    max-width: 40%;
+  }
+}
