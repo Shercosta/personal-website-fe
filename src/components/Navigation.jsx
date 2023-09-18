@@ -50,6 +50,10 @@ function Navigation() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        {/* <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="order-3 order-lg-0"
+        ></Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
