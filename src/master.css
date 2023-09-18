@@ -1,0 +1,8 @@
+.middle {
+  display: table;
+  margin: 0 auto;
+}
+
+.size-fit {
+  max-width: fit-content;
+}
