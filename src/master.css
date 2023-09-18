@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.self-picture {
+  max-width: 100%;
+}
+
 .size-fit {
   max-width: fit-content;
 }

@@ -25,7 +25,7 @@ function Navigation() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to={"Contact"} className="text-reset text-decoration-none">
+              <Link to={"contact"} className="text-reset text-decoration-none">
                 Contact
               </Link>
             </Nav.Link>
