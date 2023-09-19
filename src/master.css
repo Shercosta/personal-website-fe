@@ -13,6 +13,12 @@
 
 /* small screen and below */
 @media screen and (max-width: 787px) {
+  .navbar-icon-spacer {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 /* big screen and above */

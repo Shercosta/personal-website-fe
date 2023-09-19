@@ -41,12 +41,24 @@ const Home = () => {
           <div className="col-md-4 order-2 order-md-0">
             <div className="ms-auto">
               <h3>
-                <FaGithub /> My Github Repo
+                <a
+                  href="https://github.com/Shercosta"
+                  className="text-reset text-decoration-none"
+                  target="_blank"
+                >
+                  <FaGithub /> My Github Repo
+                </a>
               </h3>
             </div>
             <div className="ms-auto">
               <h3>
-                <FaFileLines /> Here's My CV
+                <a
+                  href="https://docs.google.com/document/d/1_8PZwEQhrhG4XrR_fEkIG2JK63wL0LGm/edit?usp=sharing&ouid=117151097863225007753&rtpof=true&sd=true"
+                  className="text-reset text-decoration-none"
+                  target="_blank"
+                >
+                  <FaFileLines /> Here's My CV
+                </a>
               </h3>
             </div>
           </div>

@@ -38,16 +38,30 @@ function Navigation() {
           id="basic-navbar-nav"
           className="order-3 order-lg-0 width-40"
         >
-          <Nav className="ms-auto">
-            <Nav.Link>
-              <FaInstagram></FaInstagram>
-            </Nav.Link>
-            <Nav.Link>
-              <FaTiktok></FaTiktok>
-            </Nav.Link>
-            <Nav.Link>
-              <FaLinkedin></FaLinkedin>
-            </Nav.Link>
+          <Nav className="w-100">
+            <div className="nav-link ms-auto navbar-icon-spacer">
+              <Nav.Link
+                className="d-inline"
+                href="https://www.instagram.com/shercostagp/"
+                target="_blank"
+              >
+                <FaInstagram></FaInstagram>
+              </Nav.Link>
+              <Nav.Link
+                className="d-inline"
+                href="https://www.tiktok.com/@shercostagp"
+                target="_blank"
+              >
+                <FaTiktok></FaTiktok>
+              </Nav.Link>
+              <Nav.Link
+                className="d-inline"
+                href="https://www.linkedin.com/in/geizka-ruicosta-5a3620144/"
+                target="_blank"
+              >
+                <FaLinkedin></FaLinkedin>
+              </Nav.Link>
+            </div>
           </Nav>
         </Navbar.Collapse>
         {/* <Navbar.Collapse
