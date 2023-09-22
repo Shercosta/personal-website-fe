@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./master.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home.jsx";
+import Work from "./components/Work.jsx";
+import store from "./app/store.js";
+import { Provider } from "react-redux";
 
 const app = createBrowserRouter([
   {
@@ -17,7 +20,7 @@ const app = createBrowserRouter([
       },
       {
         path: "work",
-        element: <h1>WORK PAGE IS WORKING</h1>,
+        element: <Work />,
       },
       {
         path: "contact",
@@ -28,8 +31,10 @@ const app = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <RouterProvider router={app} />
-  </React.StrictMode>
+  <Provider store={store}>
+    <React.StrictMode>
+      <RouterProvider router={app} />
+      {/* <App /> */}
+    </React.StrictMode>
+  </Provider>
 );
