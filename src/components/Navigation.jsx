@@ -3,8 +3,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FaInstagram, FaTiktok, FaLinkedin, FaSun } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { toggle } from "../store";
 
 function Navigation() {
+  const dispatch = useDispatch();
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container className="">
@@ -31,7 +35,10 @@ function Navigation() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand className="order-1 order-lg-0">
+        <Navbar.Brand
+          className="order-1 order-lg-0"
+          onClick={() => dispatch(toggle())}
+        >
           <FaSun></FaSun>
         </Navbar.Brand>
         <Navbar.Collapse
