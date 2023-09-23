@@ -1,17 +1,42 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { FaInstagram, FaTiktok, FaLinkedin, FaSun } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaTiktok,
+  FaLinkedin,
+  FaSun,
+  FaMoon,
+} from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { toggle } from "../store";
 
 function Navigation() {
+  const theme = useSelector((state) => state);
   const dispatch = useDispatch();
 
+  const handleThemeToggle = () => {
+    dispatch(toggle());
+  };
+
+  const handleIconToggle = (theme) => {
+    if (theme === "light") {
+      return <FaSun></FaSun>;
+    } else {
+      return <FaMoon></FaMoon>;
+    }
+  };
+
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container className="">
+    <Navbar
+      bg={theme}
+      data-bs-theme={theme}
+      expand="lg"
+      className="bg-body-tertiary"
+    >
+      <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           id="basic-navbar-nav"
@@ -37,9 +62,9 @@ function Navigation() {
         </Navbar.Collapse>
         <Navbar.Brand
           className="order-1 order-lg-0"
-          onClick={() => dispatch(toggle())}
+          onClick={handleThemeToggle}
         >
-          <FaSun></FaSun>
+          {handleIconToggle(theme)}
         </Navbar.Brand>
         <Navbar.Collapse
           id="basic-navbar-nav"
