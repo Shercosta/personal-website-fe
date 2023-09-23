@@ -23,8 +23,14 @@ function Navigation() {
 
   const handleIconToggle = (theme) => {
     if (theme === "light") {
+      document.documentElement.style.backgroundColor = "";
+      document.querySelector("div").style.backgroundColor = "";
+      document.querySelector("div").style.color = "";
       return <FaSun></FaSun>;
     } else {
+      document.querySelector("div").style.backgroundColor = "#131515";
+      document.documentElement.style.backgroundColor = "#131515";
+      document.querySelector("div").style.color = "#FFFAFB";
       return <FaMoon></FaMoon>;
     }
   };
