@@ -3,11 +3,20 @@ import { Container } from "react-bootstrap";
 import { FaGithub, FaFileLines } from "react-icons/fa6";
 
 const Home = () => {
+  const splashBackground =
+    "https://static.vecteezy.com/system/resources/previews/016/539/782/original/watercolor-splash-background-png.png";
+
+  const portraitBackground = {
+    backgroundImage: `url(${splashBackground})`,
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
+  };
+
   return (
     <>
       <Container>
         <div className="middle">
-          <p>Hi There! I'm</p>
+          <h4>Hi There! I am</h4>
           <h1>Shercosta</h1>
         </div>
       </Container>
@@ -30,11 +39,14 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-md-4 order-0 order-md-0">
+          <div
+            className="col-md-4 order-0 order-md-0"
+            style={portraitBackground}
+          >
             <img
-              src="https://i.ibb.co/f9hTD9p/Comp-1-0-00-00-00.png"
+              src="https://i.ibb.co/9W8d13T/Shercosta-portrait.png"
               alt="Shercosta Light"
-              className="self-picture"
+              className="self-picture rounded shadow"
             />
           </div>
 

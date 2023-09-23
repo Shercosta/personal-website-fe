@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./master.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home.jsx";
-import TryComp from "./components/TryComp.jsx";
+import Work from "./components/Work.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
 
@@ -20,7 +20,7 @@ const app = createBrowserRouter([
       },
       {
         path: "work",
-        element: <TryComp />,
+        element: <Work />,
       },
       {
         path: "contact",
