@@ -12,6 +12,8 @@ const Home = () => {
     backgroundRepeat: "no-repeat",
   };
 
+  const navBar = document.getElementsByClassName("navbar");
+
   return (
     <>
       <Container>

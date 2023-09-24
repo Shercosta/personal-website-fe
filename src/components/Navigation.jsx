@@ -14,7 +14,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggle } from "../store";
 
 function Navigation() {
-  const theme = useSelector((state) => state);
+  const theme = useSelector((state) => state.themeSlice);
   const dispatch = useDispatch();
 
   const handleThemeToggle = () => {
@@ -67,7 +67,7 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand
-          className="order-1 order-lg-0"
+          className="order-1 order-lg-0 theme-toggle"
           onClick={handleThemeToggle}
         >
           {handleIconToggle(theme)}
