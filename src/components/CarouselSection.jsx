@@ -1,7 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import { useSelector } from "react-redux";
 
 const CarouselSection = () => {
+  const height = useSelector((state) => state.navHeightSlice);
+
   const styles = {
     width: "100vw",
     height: "100vh",
@@ -18,7 +21,7 @@ const CarouselSection = () => {
           />
         </div>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>First slide label {height}</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>

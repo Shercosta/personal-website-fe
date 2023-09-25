@@ -21,8 +21,11 @@ const navHeightSlice = createSlice({
   name: "navHeight",
   initialState: 0,
   reducers: {
+    storeHeight: (state, action) => {
+      state = action.payload;
+    },
     getHeight: (state) => {
-      state = 88;
+      return state;
     },
   },
 });
@@ -37,5 +40,5 @@ const store = configureStore({
 });
 
 export const { toggle } = themeSlice.actions;
-export const { getHeight } = navHeightSlice.actions;
+export const { storeHeight, getHeight } = navHeightSlice.actions;
 export default store;
