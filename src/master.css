@@ -1,8 +1,11 @@
-/* .carousel-parent {
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-parent {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-} */
+}
 
 .dark-mode {
   background-color: #131515;
