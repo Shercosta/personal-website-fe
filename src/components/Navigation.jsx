@@ -49,21 +49,15 @@ function Navigation() {
           className="order-2 order-lg-0 width-40"
         >
           <Nav className="me-auto">
-            <Nav.Link>
-              <Link to={"/"} className="text-reset text-decoration-none">
-                Home
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to={"work"} className="text-reset text-decoration-none">
-                Work
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to={"contact"} className="text-reset text-decoration-none">
-                Contact
-              </Link>
-            </Nav.Link>
+            <Link to={"/"} className="nav-link text-decoration-none">
+              Home
+            </Link>
+            <Link to={"work"} className="nav-link text-decoration-none">
+              Work
+            </Link>
+            <Link to={"contact"} className="nav-link text-decoration-none">
+              Contact
+            </Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand
