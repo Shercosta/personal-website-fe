@@ -2,11 +2,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.carousel-parent {
-  width: 100vw;
-  height: 100vh;
-}
-
 .dark-mode {
   background-color: #131515;
   color: #fffafb;
@@ -36,6 +31,11 @@ body::-webkit-scrollbar {
 
 /* small screen and below */
 @media screen and (max-width: 787px) {
+  .carousel-parent {
+    width: 100vw;
+    height: 66vw;
+  }
+
   .navbar-icon-spacer {
     padding: 0;
     width: 100%;
@@ -46,6 +46,10 @@ body::-webkit-scrollbar {
 
 /* big screen and above */
 @media screen and (min-width: 768px) {
+  .carousel-parent {
+    width: 100vw;
+    height: 90vh;
+  }
   .width-40 {
     min-width: fit-content;
     max-width: 40%;

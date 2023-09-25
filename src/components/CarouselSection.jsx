@@ -1,21 +1,22 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-const CarouselSection = () => {
+const CarouselSection = ({ contents }) => {
   return (
     <Carousel>
-      <Carousel.Item>
-        <div className="carousel-parent">
-          <img
-            src="https://e7.pngegg.com/pngimages/960/556/png-clipart-new-york-city-silhouette-building-cityscape-cool-urban-miscellaneous-city.png"
-            className="img-carousel"
-          />
-        </div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      {contents.map((val) => {
+        return (
+          <Carousel.Item>
+            <div className="carousel-parent">
+              <img src={val.image} className="img-carousel" />
+            </div>
+            <Carousel.Caption>
+              <h3>{val.label}</h3>
+              <p>{val.caption}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        );
+      })}
     </Carousel>
   );
 };
