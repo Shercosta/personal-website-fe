@@ -6,6 +6,7 @@ import "./master.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home.jsx";
 import Work from "./components/Work.jsx";
+import Contact from "./components/Contact.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
 
@@ -24,7 +25,7 @@ const app = createBrowserRouter([
       },
       {
         path: "contact",
-        element: <h1>CONTACT PAGE IS WORKING</h1>,
+        element: <Contact />,
       },
     ],
   },

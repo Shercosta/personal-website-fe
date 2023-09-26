@@ -10,29 +10,27 @@ const CarouselSection = ({ contents }) => {
   };
 
   return (
-    <Carousel fade controls={false} pause="hover">
-      {contents.map((val) => {
-        return (
-          <Carousel.Item>
-            <div className="carousel-parent">
-              <div className="carousel-text">
-                <h3>{val.label}</h3>
-                <p>{val.caption}</p>
-                <Button variant={buttonVariant(getTheme)}>Go</Button>
+    <>
+      <Carousel fade controls={false} pause="hover" indicators={false}>
+        {contents.map((val) => {
+          return (
+            <Carousel.Item>
+              <div className="carousel-parent">
+                <div className="carousel-text">
+                  <h3>{val.label}</h3>
+                  <p>{val.caption}</p>
+                  <Button variant={buttonVariant(getTheme)}>Go</Button>
+                </div>
+                <div className="carousel-image">
+                  <img src={val.image} className="image-carousel" />
+                  {/* <hr /> */}
+                </div>
               </div>
-              <div className="carousel-image">
-                <img src={val.image} className="image-carousel" />
-                {/* <hr /> */}
-              </div>
-            </div>
-            {/* <Carousel.Caption>
-              <h3>{val.label}</h3>
-              <p>{val.caption}</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-        );
-      })}
-    </Carousel>
+            </Carousel.Item>
+          );
+        })}
+      </Carousel>
+    </>
   );
 };
 
