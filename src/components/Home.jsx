@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <div className="middle">
+        <div className="middle ">
           <h4>Hi There! I am</h4>
           <h1>Shercosta</h1>
         </div>
@@ -25,14 +25,14 @@ const Home = () => {
       <Container>
         <div className="row">
           <div className="col-md-4 order-1 order-md-0">
-            <div>
+            <div className="">
               <h1>Services</h1>
               <p>
                 I provide Web Development (FrontEnd, BackEnd, or FullStack). I
                 also provide Software Development services.
               </p>
             </div>
-            <div>
+            <div className="">
               <h1>Bio</h1>
               <p>
                 I love problem solving. I take my programming work as a
@@ -42,7 +42,7 @@ const Home = () => {
           </div>
 
           <div
-            className="col-md-4 order-0 order-md-0"
+            className="col-md-4 order-0 order-md-0  "
             style={portraitBackground}
           >
             <img
@@ -52,7 +52,7 @@ const Home = () => {
             />
           </div>
 
-          <div className="col-md-4 order-2 order-md-0">
+          <div className="col-md-4 order-2 order-md-0 ">
             <div className="ms-auto">
               <h3>
                 <a

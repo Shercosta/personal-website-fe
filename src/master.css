@@ -2,98 +2,86 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.center-screen {
-  height: 90vh;
-}
-
-.contact-p {
-  font-size: 3rem;
-  width: 100%;
-  text-align: center !important;
-}
-
-.contact-icon {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.dark-mode {
-  background-color: #131515;
-  color: #fffafb;
-}
-
-.hr-box {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.hr-middle {
-  flex: 1;
-}
-
-.image-carousel {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+/* Global Class */
 
 .middle {
   display: table;
   margin: 0 auto;
 }
 
+/* Home Class */
 .self-picture {
   max-width: 100%;
 }
 
-.size-fit {
-  max-width: fit-content;
+/* Contact Class */
+.center-screen {
+  height: 90vh;
+}
+.contact-p {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center !important;
+}
+.contact-icon {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.hr-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.hr-middle {
+  flex: 1;
 }
 
+/* Work Class */
+
+/* Navigation Class */
 .theme-toggle {
   cursor: pointer;
 }
 
-.txt-carousel {
-  width: 35vw;
+/* Carousel Section Class */
+.image-carousel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* small screen and below */
 @media screen and (max-width: 787px) {
+  /* Carousel Section Class */
   .carousel-image {
     width: 50%;
     height: 100%;
     display: inline-block;
   }
-
   .carousel-parent {
     width: 100vw;
     height: 66vw;
     padding: 3%;
   }
-
   .carousel-text {
     width: 50%;
     height: 100%;
     display: inline-block;
     padding-right: 2%;
   }
-
   .carousel-text p {
     display: none;
   }
-
   .carousel-text button {
     display: table;
     margin: 0 auto;
   }
-
   .image-carousel {
     border-radius: 10px;
   }
 
+  /* Navigation Class */
   .navbar-icon-spacer {
     padding: 0;
     width: 100%;
@@ -104,17 +92,16 @@ body::-webkit-scrollbar {
 
 /* big screen and above */
 @media screen and (min-width: 768px) {
+  /* Carousel Section Class */
   .carousel-image {
     width: 65%;
     height: 100%;
     display: inline-block;
   }
-
   .carousel-parent {
     width: 100vw;
     height: 90vh;
   }
-
   .carousel-text {
     width: 35%;
     height: 100%;
@@ -123,6 +110,7 @@ body::-webkit-scrollbar {
     padding-right: 2%;
   }
 
+  /* Navigation Class */
   .width-40 {
     min-width: fit-content;
     max-width: 40%;
