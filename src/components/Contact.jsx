@@ -1,16 +1,24 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { FaRocket, FaWhatsapp } from "react-icons/fa6";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail, MdOutlineContentCopy } from "react-icons/md";
 
 const Contact = () => {
-  const [visibility, setVisibility] = useState("contact-details invisible");
-  //   let alertVisibility = "invisible";
-  //   let alertClass = `contact-details ${alertVisibility}`;
+  const [visibility, setVisibility] = useState("contact-details opacity-0");
+  const [details, setDetails] = useState("");
 
-  const handleClick = () => {
-    setVisibility("contact-details visible");
+  const visibilityClick = () => {
+    setVisibility("contact-details opacity-100");
   };
+
+  const whatsappClick = () => {
+    setDetails("(+62)895633390106");
+  };
+
+  const emailClick = () => {
+    setDetails("punchsupersaga@gmail.com");
+  };
+
   return (
     <Container>
       <div className="center-screen d-flex align-items-center text-center">
@@ -28,9 +36,19 @@ const Contact = () => {
             </div>
             <div className="col-sm-12 col-lg-2">
               <p className="contact-p">
-                <FaWhatsapp onClick={handleClick} />
+                <FaWhatsapp
+                  onClick={() => {
+                    whatsappClick();
+                    visibilityClick();
+                  }}
+                />
                 <span className="contact-icon" />
-                <MdOutlineEmail />
+                <MdOutlineEmail
+                  onClick={() => {
+                    emailClick();
+                    visibilityClick();
+                  }}
+                />
               </p>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-5 hr-box">
@@ -38,8 +56,11 @@ const Contact = () => {
             </div>
           </div>
           <div className={visibility}>
-            <div class="alert alert-info" role="alert">
-              A simple info alert—check it out!
+            <div className="alert alert-info" role="alert">
+              {details}{" "}
+              <MdOutlineContentCopy
+                onClick={() => navigator.clipboard.writeText(details)}
+              />
             </div>
           </div>
         </Container>
