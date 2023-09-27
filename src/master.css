@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 .contact-p {
   font-size: 3rem;
   width: 100%;
-  text-align: center;
+  text-align: center !important;
 }
 
 .contact-icon {
