@@ -109,6 +109,10 @@ body::-webkit-scrollbar {
     padding-left: 5%;
     padding-right: 2%;
   }
+  .image-carousel {
+    padding: 2%;
+    border-radius: 30px;
+  }
 
   /* Navigation Class */
   .width-40 {
