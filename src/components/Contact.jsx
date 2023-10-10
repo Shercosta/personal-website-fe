@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   const whatsappClick = () => {
-    setDetails("(+62)895633390106");
+    setDetails("(+62)895333079571");
   };
 
   const emailClick = () => {
