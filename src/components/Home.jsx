@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { FaGithub, FaFileLines } from "react-icons/fa6";
+import ScrollReveal from "scrollreveal";
 
 const Home = () => {
   const splashBackground =
@@ -42,7 +43,7 @@ const Home = () => {
           </div>
 
           <div
-            className="col-md-4 order-0 order-md-0  "
+            className="col-md-4 order-0 order-md-0"
             style={portraitBackground}
           >
             <img
@@ -78,6 +79,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
+      {ScrollReveal().reveal(".middle")}
     </>
   );
 };
