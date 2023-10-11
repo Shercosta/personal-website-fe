@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { FaGithub, FaFileLines } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
+import LogoCarousel from "./LogoCarousel";
 
 const Home = () => {
   const splashBackground =
@@ -85,6 +86,7 @@ const Home = () => {
                   </h3>
                 </Fade>
               </div>
+              <LogoCarousel />
             </div>
           </div>
         </Fade>

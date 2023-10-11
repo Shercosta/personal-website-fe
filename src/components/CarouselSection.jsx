@@ -20,7 +20,7 @@ const CarouselSection = ({ contents }) => {
                   <h3>{val.label}</h3>
                   <p>{val.caption}</p>
                   <a href={val.link} target="_blank">
-                    <Button variant={buttonVariant(getTheme)}>Go</Button>
+                    <Button variant={buttonVariant(getTheme)}>Explore</Button>
                   </a>
                 </div>
                 <div className="carousel-image">

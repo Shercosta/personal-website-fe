@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import { FaRocket, FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineEmail, MdOutlineContentCopy } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";
-import { Fade as FadeB } from "react-bootstrap";
 
 const Contact = () => {
   const [visibility, setVisibility] = useState("contact-details opacity-0");
