@@ -12,6 +12,7 @@ import {
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toggle } from "../store";
+import { Slide } from "react-awesome-reveal";
 
 function Navigation() {
   const theme = useSelector((state) => state.themeSlice);
@@ -36,68 +37,70 @@ function Navigation() {
   };
 
   return (
-    <Navbar
-      bg={theme}
-      data-bs-theme={theme}
-      expand="lg"
-      className="bg-body-tertiary"
-    >
-      <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse
-          id="basic-navbar-nav"
-          className="order-2 order-lg-0 width-40"
-        >
-          <Nav className="me-auto">
-            <Link to={"/"} className="nav-link text-decoration-none">
-              Home
-            </Link>
-            <Link to={"work"} className="nav-link text-decoration-none">
-              Work
-            </Link>
-            <Link to={"contact"} className="nav-link text-decoration-none">
-              Contact
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-        <Navbar.Brand
-          className="order-1 order-lg-0 theme-toggle"
-          onClick={handleThemeToggle}
-        >
-          {handleIconToggle(theme)}
-        </Navbar.Brand>
-        <Navbar.Collapse
-          id="basic-navbar-nav"
-          className="order-3 order-lg-0 width-40"
-        >
-          <Nav className="w-100">
-            <div className="nav-link ms-auto navbar-icon-spacer">
-              <Nav.Link
-                className="d-inline"
-                href="https://www.instagram.com/shercostagp/"
-                target="_blank"
-              >
-                <FaInstagram></FaInstagram>
-              </Nav.Link>
-              <Nav.Link
-                className="d-inline"
-                href="https://www.tiktok.com/@shercostagp"
-                target="_blank"
-              >
-                <FaTiktok></FaTiktok>
-              </Nav.Link>
-              <Nav.Link
-                className="d-inline"
-                href="https://www.linkedin.com/in/geizka-ruicosta-5a3620144/"
-                target="_blank"
-              >
-                <FaLinkedin></FaLinkedin>
-              </Nav.Link>
-            </div>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Slide direction="down">
+      <Navbar
+        bg={theme}
+        data-bs-theme={theme}
+        expand="lg"
+        className="bg-body-tertiary"
+      >
+        <Container>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            className="order-2 order-lg-0 width-40"
+          >
+            <Nav className="me-auto">
+              <Link to={"/"} className="nav-link text-decoration-none">
+                Home
+              </Link>
+              <Link to={"work"} className="nav-link text-decoration-none">
+                Work
+              </Link>
+              <Link to={"contact"} className="nav-link text-decoration-none">
+                Contact
+              </Link>
+            </Nav>
+          </Navbar.Collapse>
+          <Navbar.Brand
+            className="order-1 order-lg-0 theme-toggle"
+            onClick={handleThemeToggle}
+          >
+            {handleIconToggle(theme)}
+          </Navbar.Brand>
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            className="order-3 order-lg-0 width-40"
+          >
+            <Nav className="w-100">
+              <div className="nav-link ms-auto navbar-icon-spacer">
+                <Nav.Link
+                  className="d-inline"
+                  href="https://www.instagram.com/shercostagp/"
+                  target="_blank"
+                >
+                  <FaInstagram></FaInstagram>
+                </Nav.Link>
+                <Nav.Link
+                  className="d-inline"
+                  href="https://www.tiktok.com/@shercostagp"
+                  target="_blank"
+                >
+                  <FaTiktok></FaTiktok>
+                </Nav.Link>
+                <Nav.Link
+                  className="d-inline"
+                  href="https://www.linkedin.com/in/geizka-ruicosta-5a3620144/"
+                  target="_blank"
+                >
+                  <FaLinkedin></FaLinkedin>
+                </Nav.Link>
+              </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </Slide>
   );
 }
 

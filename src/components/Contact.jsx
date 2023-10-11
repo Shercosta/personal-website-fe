@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { FaRocket, FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineEmail, MdOutlineContentCopy } from "react-icons/md";
+import { Fade } from "react-awesome-reveal";
+import { Fade as FadeB } from "react-bootstrap";
 
 const Contact = () => {
   const [visibility, setVisibility] = useState("contact-details opacity-0");
@@ -24,35 +26,47 @@ const Contact = () => {
       <div className="center-screen d-flex align-items-center text-center">
         <Container>
           <div className="row">
-            <div>
-              <h1>
-                Let's Connect and Create Digital Magic! <FaRocket />
-                <br />
-                Your Future Fullstack Web Developer Awaits.
-              </h1>
-            </div>
+            <Fade direction="up">
+              <div>
+                <h1>
+                  Let's Connect and Create Digital Magic! <FaRocket />
+                  <br />
+                  Your Future Fullstack Web Developer Awaits.
+                </h1>
+              </div>
+            </Fade>
             <div className="col-sm-12 col-md-12 col-lg-5 hr-box">
-              <hr className="hr-middle" />
+              <Container>
+                <Fade direction="right" delay={500}>
+                  <hr className="hr-middle" />
+                </Fade>
+              </Container>
             </div>
             <div className="col-sm-12 col-lg-2">
-              <p className="contact-p">
-                <FaWhatsapp
-                  onClick={() => {
-                    whatsappClick();
-                    visibilityClick();
-                  }}
-                />
-                <span className="contact-icon" />
-                <MdOutlineEmail
-                  onClick={() => {
-                    emailClick();
-                    visibilityClick();
-                  }}
-                />
-              </p>
+              <Fade delay={1000}>
+                <p className="contact-p">
+                  <FaWhatsapp
+                    onClick={() => {
+                      whatsappClick();
+                      visibilityClick();
+                    }}
+                  />
+                  <span className="contact-icon" />
+                  <MdOutlineEmail
+                    onClick={() => {
+                      emailClick();
+                      visibilityClick();
+                    }}
+                  />
+                </p>
+              </Fade>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-5 hr-box">
-              <hr className="hr-middle" />
+              <Container>
+                <Fade direction="left" delay={500}>
+                  <hr className="hr-middle" />
+                </Fade>
+              </Container>
             </div>
           </div>
           <div className={visibility}>
