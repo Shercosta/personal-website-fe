@@ -11,7 +11,14 @@ body::-webkit-scrollbar {
 
 /* Home Class */
 
-.logo-picture {
+.box-absolute {
+  width: 100%;
+  height: 100%;
+}
+
+.box-relative {
+  width: 100%;
+  aspect-ratio: 4/3;
 }
 
 .self-picture {
