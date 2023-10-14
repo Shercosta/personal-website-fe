@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   margin: 0 auto;
 }
 
-/* Home Class */
+/* Home Class ----------------------------------- */
 
 .box-absolute {
   width: 100%;
@@ -19,6 +19,18 @@ body::-webkit-scrollbar {
 .box-relative {
   width: 100%;
   aspect-ratio: 4/3;
+}
+
+.img-slider {
+  max-width: 20%;
+  height: auto;
+}
+
+.logo-absolute {
+  width: 60%;
+  bottom: 13%;
+  left: 20%;
+  z-index: -1;
 }
 
 .self-picture {
@@ -48,23 +60,23 @@ body::-webkit-scrollbar {
   flex: 1;
 }
 
-/* Work Class */
+/* Work Class ----------------------------------- */
 
-/* Navigation Class */
+/* Navigation Class ----------------------------------- */
 .theme-toggle {
   cursor: pointer;
 }
 
-/* Carousel Section Class */
+/* Carousel Section Class ----------------------------------- */
 .image-carousel {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* small screen and below */
+/* small screen and below ----------------------------------- */
 @media screen and (max-width: 787px) {
-  /* Carousel Section Class */
+  /* Carousel Section Class ----------------------------------- */
   .carousel-image {
     width: 50%;
     height: 100%;
@@ -92,7 +104,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
   }
 
-  /* Navigation Class */
+  /* Navigation Class ----------------------------------- */
   .navbar-icon-spacer {
     padding: 0;
     width: 100%;
@@ -101,9 +113,9 @@ body::-webkit-scrollbar {
   }
 }
 
-/* big screen and above */
+/* big screen and above ----------------------------------- */
 @media screen and (min-width: 768px) {
-  /* Carousel Section Class */
+  /* Carousel Section Class ----------------------------------- */
   .carousel-image {
     width: 65%;
     height: 100%;
@@ -125,26 +137,9 @@ body::-webkit-scrollbar {
     border-radius: 30px;
   }
 
-  /* Navigation Class */
+  /* Navigation Class ----------------------------------- */
   .width-40 {
     min-width: fit-content;
     max-width: 40%;
-  }
-}
-
-@keyframes wipe-enter {
-  0% {
-    transform: scale(0, 0.025);
-  }
-  50% {
-    transform: scale(1, 0.025);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .square {
-    animation-name: wipe-enter;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import LogoSlider from "./LogoSlider";
 
 const LogoCarousel = () => {
   return (
@@ -7,7 +8,9 @@ const LogoCarousel = () => {
         <div className="position-absolute box-absolute z-3">
           <img src="/public/Tech-holder.svg" className="w-100 h-100" />
         </div>
-        <div className="position-absolute box-absolute"></div>
+        <div className="position-absolute logo-absolute">
+          <LogoSlider />
+        </div>
       </div>
     </div>
   );
