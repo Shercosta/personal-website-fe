@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toggle } from "../store";
 import { Slide } from "react-awesome-reveal";
+import { Rotate } from "react-awesome-reveal";
 
 function Navigation() {
   const theme = useSelector((state) => state.themeSlice);
@@ -66,7 +67,7 @@ function Navigation() {
             className="order-1 order-lg-0 theme-toggle"
             onClick={handleThemeToggle}
           >
-            {handleIconToggle(theme)}
+            <Rotate duration={2000}>{handleIconToggle(theme)}</Rotate>
           </Navbar.Brand>
           <Navbar.Collapse
             id="basic-navbar-nav"

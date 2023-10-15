@@ -22,13 +22,14 @@ body::-webkit-scrollbar {
 }
 
 .img-slider {
-  max-width: 20%;
-  height: auto;
+  width: 50px;
+  margin-left: 20px;
 }
 
 .logo-absolute {
   width: 60%;
-  bottom: 13%;
+  height: 35%;
+  bottom: 5%;
   left: 20%;
   z-index: -1;
 }
@@ -37,7 +38,7 @@ body::-webkit-scrollbar {
   max-width: 100%;
 }
 
-/* Contact Class */
+/* Contact Class ----------------------------------- */
 .center-screen {
   height: 90vh;
 }

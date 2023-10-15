@@ -86,7 +86,9 @@ const Home = () => {
                   </h3>
                 </Fade>
               </div>
-              <LogoCarousel />
+              <Fade delay={1000}>
+                <LogoCarousel />
+              </Fade>
             </div>
           </div>
         </Fade>
