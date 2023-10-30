@@ -24,6 +24,7 @@ const LogoSlider = () => {
     "https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma",
     "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png",
     "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png",
+    "https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png",
   ];
 
   return (
