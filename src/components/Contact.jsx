@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   const emailClick = () => {
-    setDetails("punchsupersaga@gmail.com");
+    setDetails("shercostagp@gmail.com");
   };
 
   return (
