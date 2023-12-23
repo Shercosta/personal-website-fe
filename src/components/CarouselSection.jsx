@@ -11,7 +11,7 @@ const CarouselSection = ({ contents }) => {
 
   return (
     <>
-      <Carousel fade controls={false} pause="hover" indicators={false}>
+      <Carousel fade controls={false} pause={false} indicators={false}>
         {contents.map((val) => {
           return (
             <Carousel.Item>

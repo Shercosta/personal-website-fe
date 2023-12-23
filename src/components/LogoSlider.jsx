@@ -37,6 +37,7 @@ const LogoSlider = () => {
         return <img src={logo} className="img-slider" />;
       })}
     </Marquee>
+    // <p>Do you think i've gone blind?</p>
   );
 };
 
