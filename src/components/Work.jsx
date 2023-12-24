@@ -54,6 +54,13 @@ function Work() {
               "https://cdn.discordapp.com/attachments/1157122579706937394/1157174080118739004/Screenshot_2023_0929_113620.png?ex=651a48d7&is=6518f757&hm=e47e15bef905132219b050d3e7d838767b4b1059423efd00e8ffe97af790d3b4&",
             __v: 0,
           },
+          {
+            label: "Portfolio for ikamhd",
+            caption: "Her Professional Portofolio",
+            image:
+              "https://media.discordapp.net/attachments/1188516240650665994/1188516547640168448/image.png?ex=659acf4a&is=65885a4a&hm=afb601c11fb444e793a48b1c3e15d033ec7acba7634f4058f3d83bd70b436672&=&format=webp&quality=lossless&width=674&height=504",
+            link: "https://ikamhd.github.io/portofolio/",
+          },
         ];
 
         setProjects(products);
