@@ -25,6 +25,8 @@ const LogoSlider = () => {
     "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png",
     "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png",
     "https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png",
+    "https://1000logos.net/wp-content/uploads/2020/08/Django-Logo.png",
+    "https://plugins.jetbrains.com/files/20588/418328/icon/pluginIcon.svg",
   ];
 
   return (
