@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./master.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home.jsx";
@@ -10,7 +10,7 @@ import Contact from "./components/Contact.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
 
-const app = createBrowserRouter([
+const app = createHashRouter([
   {
     path: "/",
     element: <App />,

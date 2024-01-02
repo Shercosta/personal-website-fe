@@ -55,10 +55,10 @@ function Navigation() {
               <Link to={"/"} className="nav-link text-decoration-none">
                 Home
               </Link>
-              <Link to={"work"} className="nav-link text-decoration-none">
+              <Link to={"/work"} className="nav-link text-decoration-none">
                 Work
               </Link>
-              <Link to={"contact"} className="nav-link text-decoration-none">
+              <Link to={"/contact"} className="nav-link text-decoration-none">
                 Contact
               </Link>
             </Nav>
