@@ -7,7 +7,7 @@ const content = [
   {
     img: "https://res.cloudinary.com/practicaldev/image/fetch/s--_bS1dmNu--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bohilxedfl6ijlltfyeq.png",
     caption:
-      "When using createRouterBrowser in a react project, netlify and vercel cannot identify the custom route like '/contact'. The hosting provider thougt that it was a server route, which leads to an error. So use createHashBrowser instead.",
+      "When using createRouterBrowser in a react project, netlify and vercel cannot identify the custom route like '/contact'. The hosting provider thought that it was a server route, which leads to an error. So use createHashBrowser instead.",
   },
 ];
 
