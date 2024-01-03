@@ -62,6 +62,10 @@ body::-webkit-scrollbar {
 }
 
 /* Work Class ----------------------------------- */
+.post {
+  font-size: xx-large;
+  letter-spacing: 14px;
+}
 
 /* Navigation Class ----------------------------------- */
 .theme-toggle {

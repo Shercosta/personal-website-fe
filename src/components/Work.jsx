@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CarouselSection from "./CarouselSection";
+import Post from "./Post";
 
 function Work() {
   const [projects, setProjects] = useState([]);
@@ -71,6 +72,7 @@ function Work() {
     <>
       {/* {console.log(projects)} */}
       <CarouselSection contents={projects} />
+      <Post />
     </>
   );
 }
