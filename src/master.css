@@ -75,6 +75,10 @@ body::-webkit-scrollbar {
   object-fit: cover;
 }
 
+.btn-explore {
+  text-decoration: none;
+}
+
 /* small screen and below ----------------------------------- */
 @media screen and (max-width: 787px) {
   /* Carousel Section Class ----------------------------------- */
