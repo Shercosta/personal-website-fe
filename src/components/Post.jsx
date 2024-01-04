@@ -2,8 +2,6 @@ import React from "react";
 import content from "../arrays/content";
 
 const Post = () => {
-  content.reverse();
-
   return (
     <>
       <div className="row text-center mt-5 me-0">
