@@ -6,14 +6,14 @@ const Post = () => {
 
   return (
     <>
-      <div className="row text-center mt-5">
+      <div className="row text-center mt-5 me-0">
         <div className="col">
           <hr className="hr-middle" />
         </div>
         <div className="col">
           <p className="post">POST</p>
         </div>
-        <div className="col">
+        <div className="col pe-0">
           <hr className="hr-middle" />
         </div>
       </div>
