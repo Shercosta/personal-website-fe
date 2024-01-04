@@ -4,11 +4,19 @@ import Post from "./Post";
 
 function Work() {
   const [projects, setProjects] = useState([]);
+  const [showPost, setShowPost] = useState(false);
 
   useEffect(() => {
     fetch("https://personal-website-be-8d1338a42b80.herokuapp.com/")
       .then((response) => response.json())
-      .then((data) => setProjects(data))
+      .then((data) => {
+        setProjects(data);
+
+        const delay = 1000;
+        setTimeout(() => {
+          setShowPost(true);
+        }, delay);
+      })
       .catch((error) => {
         let products = [
           {
@@ -65,14 +73,14 @@ function Work() {
         ];
 
         setProjects(products);
+        setShowPost(true);
       });
   }, []);
 
   return (
     <>
-      {/* {console.log(projects)} */}
       <CarouselSection contents={projects} />
-      <Post />
+      {showPost && <Post />}
     </>
   );
 }

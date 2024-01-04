@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Button } from "react-bootstrap";
 import { useSelector } from "react-redux";
+import { Fade } from "react-awesome-reveal";
 
 const CarouselSection = ({ contents }) => {
   const getTheme = useSelector((state) => state.themeSlice);
