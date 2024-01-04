@@ -2,9 +2,7 @@ import React from "react";
 import content from "../arrays/content";
 
 const Post = () => {
-  let blogs = content.reverse();
-
-  console.log(blogs);
+  content.reverse();
 
   return (
     <>
@@ -20,7 +18,7 @@ const Post = () => {
         </div>
       </div>
 
-      {blogs.map((blog, index) => {
+      {content.map((blog, index) => {
         {
           if (index % 2 !== 0) {
             return (
