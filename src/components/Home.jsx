@@ -41,8 +41,9 @@ const Home = () => {
                 <Fade direction="up">
                   <h1>Bio</h1>
                   <p>
-                    I love problem solving. I take my programming work as a
-                    challenge to have fun and to work!
+                    I have finished my Bachelor Degree of Computer Science from
+                    Institut Tekologi Sumatera (ITERA), but not yet graduated.
+                    Looking forward for working with you!
                   </p>
                 </Fade>
               </div>
