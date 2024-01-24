@@ -27,6 +27,7 @@ const LogoSlider = () => {
     "https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png",
     "https://1000logos.net/wp-content/uploads/2020/08/Django-Logo.png",
     "https://plugins.jetbrains.com/files/20588/418328/icon/pluginIcon.svg",
+    "https://sass-lang.com/assets/img/styleguide/seal-color.png",
   ];
 
   return (
