@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <>
-      <div className="row text-center">
+      <div className="row text-center me-0">
         <div className="col">
           <h4 className="d-inline-block">Most Used</h4>
         </div>
@@ -14,7 +14,7 @@ const Skills = () => {
           <h4 className="d-inline-block">Less Used</h4>
         </div>
       </div>
-      <div className="row text-center">
+      <div className="row text-center me-0">
         <div className="col-2">
           <div>
             <h4>Expert Level</h4>
