@@ -135,6 +135,12 @@ const logos = [
     used: 1,
     level: 4,
   },
+  {
+    logoUrl: "https://avatars.githubusercontent.com/u/7552965?s=280&v=4",
+    logoName: "Mongoose js",
+    used: 3,
+    level: 4,
+  },
 ];
 
 export default logos;
