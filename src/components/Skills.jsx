@@ -1,13 +1,14 @@
 import React from "react";
 import logos from "../arrays/techs";
+import TableSkills from "./TableSkills";
 
 const Skills = () => {
-  logos.sort((logo1, logo2) =>
-    logo1.level > logo2.level ? -1 : logo1.level < logo2.level ? 1 : 0
-  );
-  logos.sort((logo1, logo2) =>
-    logo1.used > logo2.used ? -1 : logo1.used < logo2.used ? 1 : 0
-  );
+  //   logos.sort((logo1, logo2) =>
+  //     logo1.level > logo2.level ? -1 : logo1.level < logo2.level ? 1 : 0
+  //   );
+  //   logos.sort((logo1, logo2) =>
+  //     logo1.used > logo2.used ? -1 : logo1.used < logo2.used ? 1 : 0
+  //   );
 
   //   logos.sort((logo1, logo2) => {
   //     if (logo1.used > logo2.used) {
@@ -20,44 +21,6 @@ const Skills = () => {
   //   });
 
   //   console.log(logos);
-
-  //   let skillLevel = null;
-
-  //   const getSortedLogos = logos.map((logo, idx) => {
-  //     if (idx === 0) {
-  //       skillLevel = 5;
-  //     } else {
-  //         if (logo.level === skillLevel) {
-  //             return (
-  //                 <>
-  //                     <td></td>
-  //                 </>
-  //             )
-  //         }
-  //     }
-
-  //     return (
-  //       <>
-  //         <p>
-  //           {logo.level} - {logo.used}
-  //         </p>
-  //       </>
-  //     );
-  //   });
-
-  const getSortedLogos = () => {
-    for (let logoLevel = 5; logoLevel > 0; logoLevel--) {
-      for (let logoUsed = 5; logoUsed > 0; logoUsed--) {
-        return (
-          <>
-            <td>
-              {logos[logoLevel].level}-{logos[logoUsed].used}
-            </td>
-          </>
-        );
-      }
-    }
-  };
 
   return (
     <>
@@ -82,10 +45,18 @@ const Skills = () => {
             <h4>Basic Level</h4>
           </div>
         </div>
-        <div className="col">
+        <div className="col-10">
           <table>
-            <tbody>{getSortedLogos()}</tbody>
+            <tbody>
+              <tr>
+                <TableSkills identifier={5} />
+              </tr>
+            </tbody>
           </table>
+          {/* {logos.map((logo) => {
+            return <TableSkills identifier={5} />;
+          })} */}
+          {/* {logoElements} */}
         </div>
       </div>
     </>

@@ -171,3 +171,11 @@ body::-webkit-scrollbar {
   height: 100vh;
   max-height: 70svh;
 }
+
+.img-table {
+  width: 50px;
+}
+
+.d-inline > div {
+  display: inline;
+}
