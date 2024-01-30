@@ -141,6 +141,13 @@ const logos = [
     used: 3,
     level: 4,
   },
+  {
+    logoUrl:
+      "https://cdn.icon-icons.com/icons2/2699/PNG/512/jquery_vertical_logo_icon_169489.png",
+    logoName: "JQuery",
+    used: 3,
+    level: 3,
+  },
 ];
 
 export default logos;
