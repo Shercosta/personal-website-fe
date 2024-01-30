@@ -2,9 +2,9 @@ import React from "react";
 import logos from "../arrays/techs";
 
 const TableSkills = ({ identifier }) => {
-  const logosWithUsed5 = logos.filter((logo) => logo.used === identifier);
+  const logosLevel = logos.filter((logo) => logo.level === identifier);
 
-  const logoElements = logosWithUsed5.map((logo) => (
+  const logoElements = logosLevel.map((logo) => (
     <div key={logo.logoName}>
       <img src={logo.logoUrl} alt={logo.logoName} className="img-table" />
     </div>

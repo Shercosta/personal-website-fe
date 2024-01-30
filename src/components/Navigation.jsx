@@ -61,10 +61,7 @@ function Navigation() {
               <Link to={"/contact"} className="nav-link text-decoration-none">
                 Contact
               </Link>
-              <Link
-                to={"/skills"}
-                className="nav-link text-decoration-none disabled"
-              >
+              <Link to={"/skills"} className="nav-link text-decoration-none">
                 Skills
               </Link>
             </Nav>

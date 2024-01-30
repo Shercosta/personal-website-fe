@@ -46,17 +46,25 @@ const Skills = () => {
           </div>
         </div>
         <div className="col-10">
-          <table>
+          <table className="text-start">
             <tbody>
               <tr>
                 <TableSkills identifier={5} />
               </tr>
+              <tr>
+                <TableSkills identifier={4} />
+              </tr>
+              <tr>
+                <TableSkills identifier={3} />
+              </tr>
+              <tr>
+                <TableSkills identifier={2} />
+              </tr>
+              <tr>
+                <TableSkills identifier={1} />
+              </tr>
             </tbody>
           </table>
-          {/* {logos.map((logo) => {
-            return <TableSkills identifier={5} />;
-          })} */}
-          {/* {logoElements} */}
         </div>
       </div>
     </>
