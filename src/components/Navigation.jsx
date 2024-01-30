@@ -61,6 +61,12 @@ function Navigation() {
               <Link to={"/contact"} className="nav-link text-decoration-none">
                 Contact
               </Link>
+              <Link
+                to={"/skills"}
+                className="nav-link text-decoration-none disabled"
+              >
+                Skills
+              </Link>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Brand

@@ -38,6 +38,18 @@ body::-webkit-scrollbar {
   max-width: 100%;
 }
 
+/* Logo Carousel ----------------------------------- */
+
+.glow-when-hovered {
+  transition: 0.3s;
+}
+
+.glow-when-hovered:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #ba5bcd);
+  filter: drop-shadow(5px 5px 5px #ba5bcd);
+  transition: 0.3s;
+}
+
 /* Contact Class ----------------------------------- */
 .center-screen {
   height: 90vh;

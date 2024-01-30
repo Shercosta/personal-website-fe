@@ -7,6 +7,7 @@ import "./master.css";
 import Home from "./components/Home.jsx";
 import Work from "./components/Work.jsx";
 import Contact from "./components/Contact.jsx";
+import Skills from "./components/Skills.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
 
@@ -26,6 +27,10 @@ const app = createHashRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "skills",
+        element: <Skills />,
       },
     ],
   },
