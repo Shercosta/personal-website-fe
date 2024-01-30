@@ -164,3 +164,10 @@ body::-webkit-scrollbar {
     max-width: 40%;
   }
 }
+
+/* Skills ----------------------------------------------- */
+
+.svh100 {
+  height: 100vh;
+  max-height: 70svh;
+}
