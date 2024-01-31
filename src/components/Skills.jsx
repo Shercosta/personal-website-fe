@@ -22,7 +22,7 @@ const Skills = () => {
           </Fade>
         </div>
       </div> */}
-      <Fade direction="down">
+      <Fade direction="left">
         <div className="row text-center me-0 mt-3">
           <div className="col-2">
             <div>
