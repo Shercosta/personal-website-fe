@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const Skills = () => {
   return (
     <>
-      <div className="row text-center me-0">
+      {/* <div className="row text-center me-0">
         <div className="col">
           <Fade direction="left">
             <h4 className="d-inline-block">Most Used</h4>
@@ -21,9 +21,9 @@ const Skills = () => {
             <h4 className="d-inline-block">Less Used</h4>
           </Fade>
         </div>
-      </div>
+      </div> */}
       <Fade direction="down">
-        <div className="row text-center me-0">
+        <div className="row text-center me-0 mt-3">
           <div className="col-2">
             <div>
               <h4>Expert Level</h4>

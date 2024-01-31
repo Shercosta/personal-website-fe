@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-      <Container>
+      <Container className="mt-3">
         <div className="middle">
           <Fade>
             <h4>Hi There! I am</h4>
