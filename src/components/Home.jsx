@@ -78,7 +78,7 @@ const Home = () => {
                 <Fade direction="up">
                   <h3>
                     <a
-                      href="https://docs.google.com/document/d/1_8PZwEQhrhG4XrR_fEkIG2JK63wL0LGm/edit?usp=sharing&ouid=117151097863225007753&rtpof=true&sd=true"
+                      href="https://docs.google.com/document/d/1gzECrr1WiWP0h8FK6lwOvex1rZfxPgiY6sU7ZXF9WPw/edit?usp=sharing"
                       className="text-reset text-decoration-none"
                       target="_blank"
                     >
