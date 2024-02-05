@@ -126,14 +126,14 @@ const logos = [
     logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     logoName: "Next.js",
     used: 1,
-    level: 4,
+    level: 3,
   },
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
     logoName: "Vue.js",
     used: 1,
-    level: 4,
+    level: 3,
   },
   {
     logoUrl: "https://avatars.githubusercontent.com/u/7552965?s=280&v=4",
@@ -147,6 +147,13 @@ const logos = [
     logoName: "JQuery",
     used: 3,
     level: 3,
+  },
+  {
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
+    logoName: "PHP",
+    used: 1,
+    level: 1,
   },
 ];
 
