@@ -155,6 +155,13 @@ const logos = [
     used: 1,
     level: 1,
   },
+  {
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    logoName: "TypeScript",
+    used: 1,
+    level: 4,
+  },
 ];
 
 export default logos;
