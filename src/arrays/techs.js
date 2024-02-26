@@ -162,6 +162,13 @@ const logos = [
     used: 1,
     level: 4,
   },
+  {
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+    logoName: "Laravel",
+    used: 1,
+    level: 1,
+  },
 ];
 
 export default logos;
