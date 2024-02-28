@@ -169,6 +169,13 @@ const logos = [
     used: 1,
     level: 1,
   },
+  {
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
+    logoName: "Go",
+    used: 1,
+    level: 1,
+  },
 ];
 
 export default logos;
