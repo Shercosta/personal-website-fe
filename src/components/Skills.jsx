@@ -38,16 +38,16 @@ const Skills = () => {
             <Fade delay={700}>
               <table className="text-start">
                 <tbody>
-                  <tr>
+                  <tr className="border-bottom">
                     <TableSkills identifier={5} />
                   </tr>
-                  <tr>
+                  <tr className="border-bottom">
                     <TableSkills identifier={4} />
                   </tr>
-                  <tr>
+                  <tr className="border-bottom">
                     <TableSkills identifier={3} />
                   </tr>
-                  <tr>
+                  <tr className="border-bottom">
                     <TableSkills identifier={2} />
                   </tr>
                   <tr>

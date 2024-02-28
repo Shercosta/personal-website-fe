@@ -174,4 +174,5 @@ body::-webkit-scrollbar {
 
 .img-table {
   width: 8%;
+  min-width: 80px;
 }

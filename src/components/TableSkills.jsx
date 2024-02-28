@@ -22,7 +22,7 @@ const TableSkills = ({ identifier }) => {
         <img
           src={logo.logoUrl}
           alt={logo.logoName}
-          className="img-table glow-when-hovered"
+          className="img-table glow-when-hovered my-3 mx-1"
           data-bs-toggle="tooltip"
           data-bs-placement="bottom"
           data-bs-title="sidfanf"
