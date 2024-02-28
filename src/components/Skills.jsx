@@ -24,17 +24,30 @@ const Skills = () => {
       </div> */}
       <Fade direction="left">
         <div className="row text-center me-0 mt-3">
-          <div className="col-2">
-            <div>
-              <h4>Expert Level</h4>
-            </div>
+          <div className="col-2 ps-3">
+            <div className="position-relative svh100">
+              {/* <div className="position-sticky top-0">
+                <div
+                  style={{
+                    backgroundColor: "blue",
+                    width: "30px",
+                    height: "30px",
+                  }}
+                ></div>
+              </div> */}
+              {/* <div className="position-sticky top-0"> */}
+              <div>
+                <h4>Expert Level</h4>
+              </div>
 
-            <div class="vr svh100"></div>
-            <div>
-              <h4>Basic Level</h4>
+              <div class="vr svh90"></div>
+              <div>
+                <h4>Basic Level</h4>
+              </div>
+              {/* </div> */}
             </div>
           </div>
-          <div className="col-10">
+          <div className="col-10 ps-3">
             <Fade delay={700}>
               <table className="text-start">
                 <tbody>
