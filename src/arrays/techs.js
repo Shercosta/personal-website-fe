@@ -152,22 +152,22 @@ const logos = [
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
     logoName: "PHP",
-    used: 1,
-    level: 1,
+    used: 4,
+    level: 3,
   },
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     logoName: "TypeScript",
-    used: 1,
+    used: 3,
     level: 4,
   },
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
     logoName: "Laravel",
-    used: 1,
-    level: 1,
+    used: 4,
+    level: 4,
   },
   {
     logoUrl:
