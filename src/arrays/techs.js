@@ -120,7 +120,7 @@ const logos = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
     logoName: "PostgreSQL",
     used: 1,
-    level: 4,
+    level: 5,
   },
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
@@ -153,7 +153,7 @@ const logos = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
     logoName: "PHP",
     used: 4,
-    level: 3,
+    level: 4,
   },
   {
     logoUrl:
@@ -173,8 +173,20 @@ const logos = [
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
     logoName: "Go",
-    used: 1,
-    level: 1,
+    used: 5,
+    level: 4,
+  },
+  {
+    logoUrl: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+    logoName: "Tailwind CSS",
+    used: 3,
+    level: 3,
+  },
+  {
+    logoUrl: "https://www.docker.com/favicon.ico",
+    logoName: "Docker",
+    used: 3,
+    level: 2,
   },
 ];
 
