@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { FaGithub, FaFileLines } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
 import LogoCarousel from "./LogoCarousel";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const splashBackground =
@@ -41,9 +42,20 @@ const Home = () => {
                 <Fade direction="up">
                   <h1>Bio</h1>
                   <p>
-                    I have finished my Bachelor Degree of Computer Science from
-                    Institut Tekologi Sumatera (ITERA), but not yet graduated.
-                    Looking forward for working with you!
+                    I have a bachelor degree in Computer Science. I am currently
+                    working as a Software Engineer in{" "}
+                    <a
+                      target="_blank"
+                      className="text-reset"
+                      href="https://vesperia.id/"
+                    >
+                      Vesperia
+                    </a>
+                    . Head over to my{" "}
+                    <Link to={"/work"} className="text-reset">
+                      Work Tab
+                    </Link>{" "}
+                    to see real life projects that I have been working on.
                   </p>
                 </Fade>
               </div>

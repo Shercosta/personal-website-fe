@@ -20,12 +20,22 @@ const CarouselSection = ({ contents }) => {
                 <div className="carousel-text">
                   <h3>{val.label}</h3>
                   <p>{val.caption}</p>
-                  <a href={val.link} target="_blank" className="btn-explore">
-                    <Button variant={buttonVariant(getTheme)}>Explore</Button>
-                  </a>
+                  {!!val.link && (
+                    <a href={val.link} target="_blank" className="btn-explore">
+                      <Button variant={buttonVariant(getTheme)}>Explore</Button>
+                    </a>
+                  )}
                 </div>
                 <div className="carousel-image">
-                  <img src={val.image} className="image-carousel" />
+                  {!!val.image && (
+                    <img src={val.image} className="image-carousel" />
+                  )}
+                  {!val.image && (
+                    <img
+                      src="https://i.imgur.com/IRjB7hq.png"
+                      className="image-carousel"
+                    />
+                  )}
                 </div>
               </div>
             </Carousel.Item>
