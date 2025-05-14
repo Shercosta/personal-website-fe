@@ -15,14 +15,16 @@ const CarouselSection = ({ contents }) => {
       <Carousel
         fade
         controls={false}
-        pause={false}
+        pause={'hover'}
         indicators={true}
         variant="dark"
+        touch
+        className="carousel-dark"
       >
         {contents.map((val) => {
           return (
             <Carousel.Item>
-              <div className="carousel-parent">
+              <div className="carousel-parent" title="hover to pause">
                 <div className="carousel-text">
                   <h3>{val.label}</h3>
                   <p>{val.caption}</p>

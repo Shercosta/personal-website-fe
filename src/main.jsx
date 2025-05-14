@@ -21,7 +21,7 @@ const app = createHashRouter([
         element: <Home></Home>,
       },
       {
-        path: "work",
+        path: "experience",
         element: <Work />,
       },
       {

@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaSun,
   FaMoon,
+  FaWhatsapp,
 } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -55,8 +56,8 @@ function Navigation() {
               <Link to={"/"} className="nav-link text-decoration-none">
                 Home
               </Link>
-              <Link to={"/work"} className="nav-link text-decoration-none">
-                Work
+              <Link to={"/experience"} className="nav-link text-decoration-none">
+                Experience
               </Link>
               <Link to={"/contact"} className="nav-link text-decoration-none">
                 Contact
@@ -80,7 +81,14 @@ function Navigation() {
               <div className="nav-link ms-auto navbar-icon-spacer">
                 <Nav.Link
                   className="d-inline"
-                  href="https://www.instagram.com/shercostagp/"
+                  href="https://wa.me/62895333079571?text=Hello%20Shercosta"
+                  target="_blank"
+                >
+                  <FaWhatsapp />
+                </Nav.Link>
+                <Nav.Link
+                  className="d-inline"
+                  href="https://www.instagram.com/shercosta/"
                   target="_blank"
                 >
                   <FaInstagram></FaInstagram>
