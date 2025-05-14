@@ -91,7 +91,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png",
+      "https://images.sftcdn.net/images/t_app-icon-m/p/d61d2782-b12f-4919-b266-11705619e2c9/2739762855/balsamiq-mockups-logo.png",
     logoName: "Balsamiq",
     used: 5,
     level: 4,
@@ -104,7 +104,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://plugins.jetbrains.com/files/20588/418328/icon/pluginIcon.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Htmx_Logo.png",
     logoName: "HTMX",
     used: 1,
     level: 3,
@@ -119,7 +119,7 @@ const logos = [
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
     logoName: "PostgreSQL",
-    used: 1,
+    used: 5,
     level: 5,
   },
   {
@@ -132,7 +132,7 @@ const logos = [
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
     logoName: "Vue.js",
-    used: 1,
+    used: 3,
     level: 3,
   },
   {
@@ -152,22 +152,22 @@ const logos = [
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
     logoName: "PHP",
-    used: 4,
-    level: 4,
+    used: 5,
+    level: 5,
   },
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     logoName: "TypeScript",
-    used: 3,
+    used: 5,
     level: 4,
   },
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
     logoName: "Laravel",
-    used: 4,
-    level: 4,
+    used: 5,
+    level: 5,
   },
   {
     logoUrl:
@@ -179,13 +179,13 @@ const logos = [
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
     logoName: "Tailwind CSS",
-    used: 3,
-    level: 3,
+    used: 5,
+    level: 4,
   },
   {
     logoUrl: "https://www.docker.com/favicon.ico",
     logoName: "Docker",
-    used: 3,
+    used: 5,
     level: 2,
   },
 ];
