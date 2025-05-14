@@ -6,7 +6,7 @@ let projects = [
         label: "PT. Bursa Efek Indonesia",
         caption:
             "Internal System for Bursa Efek Indonesia, built to help maintain and keep an eye on the stock market, emitens, and companies willing to change their market/company status.",
-        image: "/public/projects/bei.jpg",
+        image: "https://i.imgur.com/w1s8cey.jpeg",
     },
     {
         _id: {
@@ -15,7 +15,7 @@ let projects = [
         label: "PT. Mandiri Utama Finance",
         caption:
             "Information System for Mandiri Utama Finance's employee to keep track of potential frauds, losses, and how to resolve them regarding their credit services.",
-        image: "/public/projects/muf.jpg",
+        image: "https://i.imgur.com/xM5bdz9.jpeg",
     },
     {
         _id: {
