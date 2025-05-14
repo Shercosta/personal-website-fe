@@ -63,10 +63,10 @@ const Home = () => {
 
             <div
               className="col-md-4 order-0 order-md-0"
-              style={portraitBackground}
+            // style={portraitBackground}
             >
               <img
-                src="https://i.ibb.co/9W8d13T/Shercosta-portrait.png"
+                src="/public/shercosta-portrait.jpg"
                 alt="Shercosta Light"
                 className="self-picture rounded shadow"
               />
