@@ -43,13 +43,13 @@ const Home = () => {
                   <h1>Bio</h1>
                   <p>
                     I have a bachelor degree in Computer Science. I am currently
-                    working as a Software Engineer in{" "}
+                    working as a Full-stack Developer in{" "}
                     <a
                       target="_blank"
                       className="text-reset"
-                      href="https://vesperia.id/"
+                      href="https://drxasia.id/"
                     >
-                      Vesperia
+                      DRX Asia
                     </a>
                     . Head over to my{" "}
                     <Link to={"/work"} className="text-reset">
