@@ -52,7 +52,7 @@ const Home = () => {
                       DRX Asia
                     </a>
                     . Head over to my{" "}
-                    <Link to={"/exoerience"} className="text-reset">
+                    <Link to={"/experience"} className="text-reset">
                       Experience Tab
                     </Link>{" "}
                     to see real life projects that I have been working on.
