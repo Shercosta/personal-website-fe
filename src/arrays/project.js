@@ -24,7 +24,7 @@ let projects = [
         label: "Sapa Mbak Ita",
         caption:
             "Public and Internal Information System for the government of Semarang City to resolve and track the progress of the citizens' public complaints.",
-        image: "https://i.imgur.com/RDQak7D.png",
+        image: "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/sapambakita.jpg",
     },
     {
         _id: {
