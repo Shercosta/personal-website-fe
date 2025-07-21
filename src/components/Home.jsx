@@ -66,7 +66,7 @@ const Home = () => {
             // style={portraitBackground}
             >
               <img
-                src="https://i.imgur.com/vi1Rxoj.jpeg"
+                src="https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/self-vesperia.png"
                 alt="Shercosta Light"
                 className="self-picture rounded shadow"
               />
