@@ -125,14 +125,14 @@ const logos = [
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     logoName: "Next.js",
-    used: 1,
-    level: 3,
+    used: 3,
+    level: 4,
   },
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
     logoName: "Vue.js",
-    used: 3,
+    used: 4,
     level: 3,
   },
   {
@@ -160,7 +160,7 @@ const logos = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     logoName: "TypeScript",
     used: 5,
-    level: 4,
+    level: 5,
   },
   {
     logoUrl:
@@ -187,6 +187,30 @@ const logos = [
     logoName: "Docker",
     used: 5,
     level: 2,
+  },
+  {
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
+    logoName: "React Native",
+    used: 3,
+    level: 2,
+  },
+  {
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg",
+    logoName: "Nest Js",
+    used: 2,
+    level: 2,
+  },
+  {
+    logoUrl: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png",
+    logoName: "Prisma",
+    used: 3,
+    level: 2,
+  },
+  {
+    logoUrl: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/hono-6ge6rolcrcsqnvk7r685s.png/hono-lni310gpnzm7h0sumu9xrk.png?_a=DATAdtAAZAA0",
+    logoName: "Hono",
+    used: 3,
+    level: 3,
   },
 ];
 
