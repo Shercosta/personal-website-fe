@@ -19,6 +19,15 @@ let projects = [
     },
     {
         _id: {
+            $oid: "drxsportnet",
+        },
+        label: "DRX Sportnet",
+        caption:
+            "Mobile Application for users. Users can track their matches of Padel Tournament. Can see live Esport Matches and the result of the matches.",
+        image: "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/sportnet.jpg",
+    },
+    {
+        _id: {
             $oid: "sapambakita",
         },
         label: "Sapa Mbak Ita",
