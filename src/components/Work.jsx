@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import CarouselSection from "./CarouselSection";
-import Post from "./Post";
+import Post from "./Key-Projects";
 import projects from "../arrays/project";
 
 function Work() {
-  const [imProjects, setProjects] = useState(projects);
+  const [imProjects, setProjects] = useState(projects.filter((project) => project.highlight));
   const [showPost, setShowPost] = useState(true);
 
   // not used due to no backend host

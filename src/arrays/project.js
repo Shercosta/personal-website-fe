@@ -3,6 +3,7 @@ let projects = [
         _id: {
             $oid: "idx",
         },
+        highlight: true,
         label: "PT. Bursa Efek Indonesia",
         caption:
             "Internal System for Bursa Efek Indonesia, built to help maintain and keep an eye on the stock market, emitens, and companies willing to change their market/company status.",
@@ -12,6 +13,7 @@ let projects = [
         _id: {
             $oid: "muf",
         },
+        highlight: true,
         label: "PT. Mandiri Utama Finance",
         caption:
             "Information System for Mandiri Utama Finance's employee to keep track of potential frauds, losses, and how to resolve them regarding their credit services.",
@@ -21,6 +23,7 @@ let projects = [
         _id: {
             $oid: "drxsportnet",
         },
+        highlight: true,
         label: "DRX Sportnet",
         caption:
             "Mobile Application for users. Users can track their matches of Padel Tournament. Can see live Esport Matches and the result of the matches.",
@@ -30,6 +33,7 @@ let projects = [
         _id: {
             $oid: "sapambakita",
         },
+        highlight: false,
         label: "Sapa Mbak Ita",
         caption:
             "Public and Internal Information System for the government of Semarang City to resolve and track the progress of the citizens' public complaints.",
@@ -39,6 +43,7 @@ let projects = [
         _id: {
             $oid: "lavees",
         },
+        highlight: false,
         label: "Lavees Cosmedics",
         caption:
             "Information System for Lavees Beauty Clinic, with integration for payment gateway such as BCA, Gojek, etc.",
@@ -48,6 +53,7 @@ let projects = [
         _id: {
             $oid: "ptsmi",
         },
+        highlight: false,
         label: "PT Sarana Multi Infrastruktur",
         caption:
             "Internal Information System to manage, track, and resolve their loans for the partnering companies.",
