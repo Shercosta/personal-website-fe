@@ -59,6 +59,16 @@ let projects = [
             "Internal Information System to manage, track, and resolve their loans for the partnering companies.",
         image: "https://i.imgur.com/zDGukVh.png",
     },
+    {
+        _id: {
+            $oid: "drxwearcms",
+        },
+        highlight: false,
+        label: "DRX Wear CMS",
+        caption:
+            "Content Management System of DRX Wear where the admin can control the product and blogs to be shown on the front page of DRX Wear. Created with Strapi.",
+        image: "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drx-wear-cms.jpg",
+    },
 ];
 
 export default projects

@@ -212,6 +212,18 @@ const logos = [
     used: 3,
     level: 3,
   },
+  {
+    logoUrl: "https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/682dcb06620717ccd769b572_MINIO_Bird.png",
+    logoName: "MiniO Storage",
+    used: 2,
+    level: 1,
+  },
+  {
+    logoUrl: "https://assets.super.so/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/uploads/favicon/9c68ae10-0a8a-4e3f-9084-3625b19df9cb.png",
+    logoName: "Strapi",
+    used: 2,
+    level: 3,
+  },
 ];
 
 export default logos;
