@@ -125,8 +125,8 @@ const logos = [
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     logoName: "Next.js",
-    used: 3,
-    level: 4,
+    used: 5,
+    level: 5,
   },
   {
     logoUrl:
@@ -180,46 +180,51 @@ const logos = [
     logoUrl: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
     logoName: "Tailwind CSS",
     used: 5,
-    level: 4,
+    level: 5,
   },
   {
     logoUrl: "https://www.docker.com/favicon.ico",
     logoName: "Docker",
     used: 5,
-    level: 2,
+    level: 3,
   },
   {
-    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
     logoName: "React Native",
     used: 3,
-    level: 2,
+    level: 4,
   },
   {
     logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg",
     logoName: "Nest Js",
-    used: 2,
-    level: 2,
+    used: 4,
+    level: 5,
   },
   {
-    logoUrl: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png",
+    logoUrl:
+      "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png",
     logoName: "Prisma",
-    used: 3,
-    level: 2,
+    used: 5,
+    level: 5,
   },
   {
-    logoUrl: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/hono-6ge6rolcrcsqnvk7r685s.png/hono-lni310gpnzm7h0sumu9xrk.png?_a=DATAdtAAZAA0",
+    logoUrl:
+      "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/hono-6ge6rolcrcsqnvk7r685s.png/hono-lni310gpnzm7h0sumu9xrk.png?_a=DATAdtAAZAA0",
     logoName: "Hono",
-    used: 3,
-    level: 3,
+    used: 5,
+    level: 5,
   },
   {
-    logoUrl: "https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/682dcb06620717ccd769b572_MINIO_Bird.png",
+    logoUrl:
+      "https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/682dcb06620717ccd769b572_MINIO_Bird.png",
     logoName: "MiniO Storage",
     used: 2,
     level: 1,
   },
   {
-    logoUrl: "https://assets.super.so/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/uploads/favicon/9c68ae10-0a8a-4e3f-9084-3625b19df9cb.png",
+    logoUrl:
+      "https://assets.super.so/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/uploads/favicon/9c68ae10-0a8a-4e3f-9084-3625b19df9cb.png",
     logoName: "Strapi",
     used: 2,
     level: 3,
