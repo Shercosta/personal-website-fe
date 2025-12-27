@@ -36,7 +36,7 @@ const Post = () => {
                     />
                   </Fade>
                 </div>
-                <div className="col-md-7 order-0 order-md-0 content mb-3">
+                <div className="col-md-7 order-0 order-md-0 content mb-3 fs-1 text">
                   <Fade>{blog.label + " - " + blog.caption}</Fade>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const Post = () => {
           } else {
             return (
               <div className="row my-5 mx-2">
-                <div className="col-md-7 order-0 order-md-0 content mb-3">
+                <div className="col-md-7 order-0 order-md-0 content mb-3 fs-1 text">
                   <Fade>{blog.label + " - " + blog.caption}</Fade>
                 </div>
                 <div className="col-md-5 order-1 order-md-0 preview">

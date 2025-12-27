@@ -1,8 +1,6 @@
-import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Button } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import { Fade } from "react-awesome-reveal";
 
 const CarouselSection = ({ contents }) => {
   const getTheme = useSelector((state) => state.themeSlice);
@@ -15,7 +13,7 @@ const CarouselSection = ({ contents }) => {
       <Carousel
         fade
         controls={false}
-        pause={'hover'}
+        pause={"hover"}
         indicators={true}
         variant="dark"
         touch
@@ -29,9 +27,17 @@ const CarouselSection = ({ contents }) => {
                   <h3>{val.label}</h3>
                   <p>{val.caption}</p>
                   {!!val.link && (
-                    <a href={val.link} target="_blank" className="btn-explore">
-                      <Button variant={buttonVariant(getTheme)}>Explore</Button>
-                    </a>
+                    <div className="d-flex align-items-start">
+                      <a
+                        href={val.link}
+                        target="_blank"
+                        className="btn-explore"
+                      >
+                        <Button variant={buttonVariant(getTheme)}>
+                          Explore
+                        </Button>
+                      </a>
+                    </div>
                   )}
                 </div>
                 <div className="carousel-image">

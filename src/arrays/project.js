@@ -9,6 +9,7 @@ let projects = [
       "DRX Token website, featuring blogs, news, integrated with Indodax and Google Cloud Console.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxtoken.jpg",
+    link: "https://drxtoken.com",
   },
   {
     _id: {
@@ -20,6 +21,7 @@ let projects = [
       "DRX Wear website. A shopee-like e-commerce website with real selling products.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxwear.jpg",
+    link: "https://drxwear.com",
   },
   {
     _id: {
@@ -53,6 +55,7 @@ let projects = [
       "Mobile Application for users. Users can track their matches of Padel Tournament. Can see live Esport Matches and the result of the matches.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/sportnet.jpg",
+    link: "https://drxsportnet.id",
   },
   {
     _id: {

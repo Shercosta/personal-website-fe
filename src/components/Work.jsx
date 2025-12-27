@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import CarouselSection from "./CarouselSection";
 import Post from "./Key-Projects";
 import projects from "../arrays/project";
