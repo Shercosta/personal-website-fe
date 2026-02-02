@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./master.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home.jsx";
@@ -11,7 +11,7 @@ import Skills from "./components/Skills.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
 
-const app = createHashRouter([
+const app = createBrowserRouter([
   {
     path: "/",
     element: <App />,
@@ -42,7 +42,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       {/* <App /> */}
       <RouterProvider router={app} />
     </React.StrictMode>
-  </Provider>
+  </Provider>,
 );
 
 const styles = {};
