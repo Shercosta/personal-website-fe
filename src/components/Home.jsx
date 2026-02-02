@@ -134,6 +134,15 @@ const Home = () => {
                   className="text-reset fw-medium"
                 >
                   PT Bank Tabungan Negara (Persero) Tbk
+                </a>{" "}
+                via{" "}
+                <a
+                  href="https://deptechdigital.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-reset fw-medium"
+                >
+                  PT Deptech Digital Indonesia
                 </a>
                 .
               </p>
