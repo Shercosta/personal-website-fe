@@ -10,18 +10,20 @@ const Home = () => {
     <>
       {/* Helmet */}
       <Helmet>
-        <title>Geizka Ruicosta – Fullstack Software Engineer</title>
+        <title>
+          Geizka Rozilia Ruicosta (Shercosta) – Fullstack Software Engineer
+        </title>
 
         <meta
           name="description"
-          content="Geizka Ruicosta is a Fullstack Software Engineer with experience building scalable web, mobile, and backend systems using React, Vue, Node.js, Laravel, Go, and Docker."
+          content="Geizka Rozilia Ruicosta (Shercosta) is a Fullstack Software Engineer with experience building scalable web, mobile, and backend systems using React, Vue, Node.js, Laravel, Go, and Docker."
         />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Geizka Ruicosta – Fullstack Software Engineer"
+          content="Geizka Rozilia Ruicosta (Shercosta) – Fullstack Software Engineer"
         />
         <meta
           property="og:description"
@@ -37,12 +39,28 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Geizka Ruicosta – Fullstack Software Engineer"
+          content="Geizka Rozilia Ruicosta (Shercosta) – Fullstack Software Engineer"
         />
         <meta
           name="twitter:description"
           content="Building scalable, maintainable software systems across frontend, backend, and cloud environments."
         />
+        {/* JSON-LD Person schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Geizka Rozilia Ruicosta",
+            alternateName: ["Shercosta", "Geizka Ruicosta"],
+            url: "https://shercosta.netlify.app",
+            image: "https://shercosta.netlify.app/og.png",
+            jobTitle: "Full-stack Software Engineer",
+            sameAs: [
+              "https://github.com/Shercosta",
+              "https://www.linkedin.com/in/geizka-ruicosta-5a3620144/",
+            ],
+          })}
+        </script>
       </Helmet>
 
       {/* IDENTITY CARD */}
@@ -55,6 +73,9 @@ const Home = () => {
               </Badge>
 
               <h1 className="fw-bold mb-2">Geizka Rozilia Ruicosta, S.Kom.</h1>
+              <p className="text-muted fs-6 mb-4">
+                also known as <b>Shercosta</b>
+              </p>
 
               <p className="fs-5 mb-4" style={{ maxWidth: 720 }}>
                 A goal-driven Software Engineer with professional experience
@@ -136,7 +157,7 @@ const Home = () => {
             <Fade>
               <img
                 src="https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/self-vesperia.png"
-                alt="Geizka Ruicosta"
+                alt="Geizka Rozilia Ruicosta (Shercosta)"
                 className="img-fluid rounded-4 shadow"
                 style={{ maxHeight: 360 }}
               />

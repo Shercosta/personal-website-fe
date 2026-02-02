@@ -7,68 +7,40 @@ function App() {
   return (
     <>
       <Helmet>
-        {/* Base SEO (acts as fallback) */}
-        <title>Geizka Ruicosta – Fullstack Software Engineer</title>
+        <title>Geizka Rozilia Ruicosta (Shercosta)</title>
         <meta
           name="description"
-          content="Geizka Ruicosta is a Fullstack Software Engineer building scalable web, backend, and enterprise systems."
+          content="Personal website of Geizka Rozilia Ruicosta, also known as Shercosta, full-stack developer."
         />
 
-        {/* Canonical */}
-        <link rel="canonical" href="https://shercosta.netlify.app/" />
-
         {/* Open Graph */}
-        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Geizka Ruicosta – Fullstack Software Engineer"
+          content="Geizka Rozilia Ruicosta (Shercosta)"
         />
         <meta
           property="og:description"
-          content="Fullstack Software Engineer with production experience in enterprise, fintech, and business systems."
+          content="Full-stack developer portfolio of Geizka Rozilia Ruicosta (Shercosta)."
         />
-        <meta property="og:url" content="https://shercosta.netlify.app/" />
         <meta
           property="og:image"
           content="https://shercosta.netlify.app/og.png"
         />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
 
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Geizka Ruicosta – Fullstack Software Engineer"
-        />
-        <meta
-          name="twitter:description"
-          content="Building scalable, maintainable software systems across frontend and backend."
-        />
-        <meta
-          name="twitter:image"
-          content="https://shercosta.netlify.app/og.png"
-        />
-
-        {/* Structured Data (JSON-LD) */}
+        {/* JSON-LD Person schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
             name: "Geizka Rozilia Ruicosta",
-            jobTitle: "Fullstack Software Engineer",
-            url: "https://shercosta.netlify.app/",
+            alternateName: ["Shercosta", "Geizka Ruicosta"],
+            url: "https://shercosta.netlify.app",
             image: "https://shercosta.netlify.app/og.png",
+            jobTitle: "Full-stack Software Engineer",
             sameAs: [
               "https://github.com/Shercosta",
               "https://www.linkedin.com/in/geizka-ruicosta-5a3620144/",
             ],
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Jakarta Timur",
-              addressRegion: "DKI Jakarta",
-              addressCountry: "ID",
-            },
           })}
         </script>
       </Helmet>
