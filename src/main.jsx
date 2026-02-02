@@ -10,6 +10,7 @@ import Contact from "./components/Contact.jsx";
 import Skills from "./components/Skills.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
+import { HelmetProvider } from "react-helmet-async";
 
 const app = createBrowserRouter([
   {
@@ -40,7 +41,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <React.StrictMode>
       {/* <App /> */}
-      <RouterProvider router={app} />
+      <HelmetProvider>
+        <RouterProvider router={app} />
+      </HelmetProvider>
     </React.StrictMode>
   </Provider>,
 );

@@ -2,12 +2,43 @@ import { Container, Card, Badge } from "react-bootstrap";
 import { FaGithub, FaFileLines } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import LogoCarousel from "./LogoCarousel";
 import LogoSlider from "./LogoSlider";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <>
+      {/* Helmet */}
+      <Helmet>
+        <title>Shercosta – Full-stack Developer</title>
+
+        <meta
+          name="description"
+          content="Shercosta is a full-stack developer specializing in web and software development, building scalable, production-ready systems."
+        />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Shercosta – Full-stack Developer" />
+        <meta
+          property="og:description"
+          content="Full-stack developer with real-world production experience in web and software systems."
+        />
+        <meta property="og:url" content="https://shercosta.netlify.app/" />
+        <meta
+          property="og:image"
+          content="https://shercosta.netlify.app/og.png"
+        />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shercosta – Full-stack Developer" />
+        <meta
+          name="twitter:description"
+          content="Building scalable web and software systems with clean architecture."
+        />
+      </Helmet>
+
       {/* IDENTITY CARD */}
       <Container className="py-5">
         <Fade>
@@ -125,6 +156,10 @@ const Home = () => {
               {
                 title: "Software Development",
                 desc: "Tools and systems beyond the browser.",
+              },
+              {
+                title: "Mobile Apps",
+                desc: "Cross-platform apps for iOS and Android.",
               },
             ].map((item) => (
               <div className="col-md-6" key={item.title}>
