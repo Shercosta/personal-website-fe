@@ -1,34 +1,18 @@
 import { useState } from "react";
-import CarouselSection from "./CarouselSection";
-import Post from "./Key-Projects";
 import projects from "../arrays/project";
+import FeaturedWork from "./FeaturedWork";
+import CaseStudies from "./CaseStudies";
 
 function Work() {
-  const [imProjects, setProjects] = useState(projects.filter((project) => project.highlight));
-  const [showPost, setShowPost] = useState(true);
-
-  // not used due to no backend host
-  // useEffect(() => {
-  //   fetch("https://personal-website-be-8d1338a42b80.herokuapp.com/")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setProjects(data);
-
-  //       const delay = 1000;
-  //       setTimeout(() => {
-  //         setShowPost(true);
-  //       }, delay);
-  //     })
-  //     .catch((error) => {
-  //       setProjects(projects);
-  //       setShowPost(true);
-  //     });
-  // }, []);
+  const [imProjects, _] = useState(
+    projects.filter((project) => project.highlight),
+  );
+  const [showPost, __] = useState(true);
 
   return (
     <>
-      <CarouselSection contents={imProjects} />
-      {showPost && <Post />}
+      <FeaturedWork projects={imProjects} />
+      {showPost && <CaseStudies />}
     </>
   );
 }

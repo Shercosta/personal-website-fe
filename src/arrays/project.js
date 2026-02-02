@@ -1,18 +1,6 @@
 let projects = [
   {
     _id: {
-      $oid: "drxtoken",
-    },
-    highlight: true,
-    label: "DRX Token",
-    caption:
-      "DRX Token website, featuring blogs, news, integrated with Indodax and Google Cloud Console.",
-    image:
-      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxtoken.jpg",
-    link: "https://drxtoken.com",
-  },
-  {
-    _id: {
       $oid: "drxwear",
     },
     highlight: true,
@@ -22,6 +10,18 @@ let projects = [
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxwear.jpg",
     link: "https://drxwear.com",
+  },
+  {
+    _id: {
+      $oid: "drxtoken",
+    },
+    highlight: true,
+    label: "DRX Token",
+    caption:
+      "DRX Token website, featuring blogs, news, integrated with Indodax and Google Cloud Console.",
+    image:
+      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxtoken.jpg",
+    link: "https://drxtoken.com",
   },
   {
     _id: {
