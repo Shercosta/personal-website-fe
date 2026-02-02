@@ -10,19 +10,22 @@ const Home = () => {
     <>
       {/* Helmet */}
       <Helmet>
-        <title>Shercosta – Full-stack Developer</title>
+        <title>Geizka Ruicosta – Fullstack Software Engineer</title>
 
         <meta
           name="description"
-          content="Shercosta is a full-stack developer specializing in web and software development, building scalable, production-ready systems."
+          content="Geizka Ruicosta is a Fullstack Software Engineer with experience building scalable web, mobile, and backend systems using React, Vue, Node.js, Laravel, Go, and Docker."
         />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Shercosta – Full-stack Developer" />
+        <meta
+          property="og:title"
+          content="Geizka Ruicosta – Fullstack Software Engineer"
+        />
         <meta
           property="og:description"
-          content="Full-stack developer with real-world production experience in web and software systems."
+          content="Fullstack Software Engineer with real-world production experience in enterprise, fintech, and business systems."
         />
         <meta property="og:url" content="https://shercosta.netlify.app/" />
         <meta
@@ -32,10 +35,13 @@ const Home = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Shercosta – Full-stack Developer" />
+        <meta
+          name="twitter:title"
+          content="Geizka Ruicosta – Fullstack Software Engineer"
+        />
         <meta
           name="twitter:description"
-          content="Building scalable web and software systems with clean architecture."
+          content="Building scalable, maintainable software systems across frontend, backend, and cloud environments."
         />
       </Helmet>
 
@@ -45,21 +51,23 @@ const Home = () => {
           <Card className="border-0 shadow-sm rounded-4">
             <Card.Body className="p-4 p-md-5">
               <Badge bg="secondary" className="mb-3">
-                Full-stack Developer
+                Fullstack Software Engineer
               </Badge>
 
-              <h1 className="fw-bold mb-2">Shercosta</h1>
+              <h1 className="fw-bold mb-2">Geizka Rozilia Ruicosta, S.Kom.</h1>
 
-              <p className=" fs-5 mb-4" style={{ maxWidth: 700 }}>
-                I build reliable web and software systems with clean
-                architecture, strong fundamentals, and real-world production
-                experience.
+              <p className="fs-5 mb-4" style={{ maxWidth: 720 }}>
+                A goal-driven Software Engineer with professional experience
+                designing, developing, and maintaining full-stack systems — from
+                frontend interfaces to backend services and APIs — built for
+                real-world production use.
               </p>
 
               <div className="d-flex gap-3 flex-wrap">
                 <a
                   href="https://github.com/Shercosta"
                   target="_blank"
+                  rel="noreferrer"
                   className="btn btn-outline-secondary"
                 >
                   <FaGithub className="me-2" />
@@ -69,6 +77,7 @@ const Home = () => {
                 <a
                   href="https://docs.google.com/document/d/1gzECrr1WiWP0h8FK6lwOvex1rZfxPgiY6sU7ZXF9WPw/edit?usp=sharing"
                   target="_blank"
+                  rel="noreferrer"
                   className="btn btn-outline-secondary"
                 >
                   <FaFileLines className="me-2" />
@@ -93,30 +102,32 @@ const Home = () => {
           <div className="col-md-6">
             <Fade direction="up">
               <h3 className="fw-semibold mb-3">Background</h3>
-              <p className="">
-                I hold a bachelor’s degree in Computer Science and currently
-                work as a Full-stack Developer at{" "}
+
+              <p>
+                I hold a Bachelor’s degree in Computer Science and currently
+                work as a <strong>Fullstack Developer</strong> at{" "}
                 <a
                   href="https://www.btn.co.id/id"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-reset fw-medium"
                 >
-                  PT Bank Tabungan Negara
-                </a>{" "}
-                via{" "}
-                <a
-                  href="https://deptechdigital.com/"
-                  target="_blank"
-                  className="text-reset fw-medium"
-                >
-                  PT Deptech Digital Indonesia
+                  PT Bank Tabungan Negara (Persero) Tbk
                 </a>
                 .
               </p>
 
-              <p className="">
-                I focus on building systems that are easy to maintain, scale,
-                and reason about — not just things that look good in demos.
+              <p>
+                My experience spans frontend and backend development, API
+                integration, database design, and cloud-ready architectures,
+                including microservices and containerized environments using
+                Docker.
+              </p>
+
+              <p className="mb-0">
+                I care deeply about code quality, maintainability, and systems
+                that can scale alongside business growth — not just features
+                that work today.
               </p>
             </Fade>
           </div>
@@ -125,7 +136,7 @@ const Home = () => {
             <Fade>
               <img
                 src="https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/self-vesperia.png"
-                alt="Shercosta"
+                alt="Geizka Ruicosta"
                 className="img-fluid rounded-4 shadow"
                 style={{ maxHeight: 360 }}
               />
@@ -137,36 +148,36 @@ const Home = () => {
       {/* SERVICES */}
       <Container className="pb-5">
         <Fade>
-          <h3 className="fw-semibold mb-4">What I Build</h3>
+          <h3 className="fw-semibold mb-4">What I Work On</h3>
 
           <div className="row g-4">
             {[
               {
-                title: "Frontend",
-                desc: "Accessible, responsive interfaces using modern JS frameworks.",
+                title: "Frontend Engineering",
+                desc: "Modern, accessible user interfaces using React and Vue.",
               },
               {
-                title: "Backend",
-                desc: "APIs, databases, and business logic built for production.",
+                title: "Backend Engineering",
+                desc: "APIs, databases, and business logic built for reliability.",
               },
               {
-                title: "Full-stack Systems",
-                desc: "End-to-end solutions with clean architecture.",
+                title: "Fullstack Systems",
+                desc: "End-to-end solutions from UI to database and deployment.",
               },
               {
-                title: "Software Development",
-                desc: "Tools and systems beyond the browser.",
+                title: "Enterprise & Business Software",
+                desc: "Internal tools, CMS, and large-scale applications.",
               },
               {
-                title: "Mobile Apps",
-                desc: "Cross-platform apps for iOS and Android.",
+                title: "Team & Technical Leadership",
+                desc: "Leading developers, reviewing code, and shaping architecture.",
               },
             ].map((item) => (
               <div className="col-md-6" key={item.title}>
                 <Card className="h-100 border-0 shadow-sm rounded-4">
                   <Card.Body>
                     <h5 className="fw-semibold">{item.title}</h5>
-                    <p className=" mb-0">{item.desc}</p>
+                    <p className="mb-0">{item.desc}</p>
                   </Card.Body>
                 </Card>
               </div>
@@ -178,7 +189,7 @@ const Home = () => {
       {/* TECH STACK */}
       <Container className="pb-5">
         <Fade>
-          <h3 className="fw-semibold mb-3">Tools I Use in Production</h3>
+          <h3 className="fw-semibold mb-3">Technologies Used in Production</h3>
           <LogoSlider />
         </Fade>
       </Container>
