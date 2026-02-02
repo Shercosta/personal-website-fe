@@ -1,4 +1,3 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
 import { useSelector } from "react-redux";
 import logos from "../arrays/techs";
@@ -21,7 +20,6 @@ const LogoSlider = () => {
         return <img src={logo.logoUrl} className="img-slider" />;
       })}
     </Marquee>
-    // <p>Do you think i've gone blind?</p>
   );
 };
 
