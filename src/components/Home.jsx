@@ -65,7 +65,7 @@ const Home = () => {
 
       {/* IDENTITY CARD */}
       <Container className="py-5">
-        <Fade>
+        <Fade triggerOnce>
           <Card className="border-0 shadow-sm rounded-4">
             <Card.Body className="p-4 p-md-5">
               <Badge bg="secondary" className="mb-3">
@@ -121,7 +121,7 @@ const Home = () => {
       <Container className="pb-5">
         <div className="row align-items-center g-5">
           <div className="col-md-6">
-            <Fade direction="up">
+            <Fade triggerOnce direction="up">
               <h3 className="fw-semibold mb-3">Background</h3>
 
               <p>
@@ -163,7 +163,7 @@ const Home = () => {
           </div>
 
           <div className="col-md-6 text-center">
-            <Fade>
+            <Fade triggerOnce>
               <img
                 src="https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/self-vesperia.png"
                 alt="Geizka Rozilia Ruicosta (Shercosta)"
@@ -177,7 +177,7 @@ const Home = () => {
 
       {/* SERVICES */}
       <Container className="pb-5">
-        <Fade>
+        <Fade triggerOnce>
           <h3 className="fw-semibold mb-4">What I Work On</h3>
 
           <div className="row g-4">
@@ -218,7 +218,7 @@ const Home = () => {
 
       {/* TECH STACK */}
       <Container className="pb-5">
-        <Fade>
+        <Fade triggerOnce>
           <h3 className="fw-semibold mb-3">Technologies Used in Production</h3>
           <LogoSlider />
         </Fade>

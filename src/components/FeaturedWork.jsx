@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 const FeaturedWork = ({ projects }) => {
   return (
     <Container className="py-5">
-      <Fade>
+      <Fade triggerOnce>
         <h1 className="fw-bold mb-3">Experience</h1>
         <p className="text-soft mb-5" style={{ maxWidth: 700 }}>
           A selection of production systems and real-world projects I’ve worked
@@ -15,7 +15,7 @@ const FeaturedWork = ({ projects }) => {
       <div className="row g-4">
         {projects.map((project) => (
           <div className="col-md-6" key={project.label}>
-            <Fade direction="up">
+            <Fade triggerOnce direction="up">
               <Card className="h-100 border-0 shadow-sm rounded-4 bg-body">
                 {project.image && (
                   <Card.Img

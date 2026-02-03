@@ -5,14 +5,14 @@ import projects from "../arrays/project";
 const CaseStudies = () => {
   return (
     <Container className="pb-5">
-      <Fade>
+      <Fade triggerOnce>
         <h3 className="fw-semibold mb-4">Selected Case Studies</h3>
       </Fade>
 
       <div className="row g-4">
         {projects.map((project) => (
           <div className="col-md-4" key={project.label}>
-            <Fade direction="up">
+            <Fade triggerOnce direction="up">
               <Card className="h-100 border-0 shadow-sm rounded-4 bg-body">
                 {project.image && (
                   <Card.Img

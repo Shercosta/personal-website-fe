@@ -13,7 +13,7 @@ const levelLabel = {
 const Skills = () => {
   return (
     <Container className="py-5">
-      <Fade>
+      <Fade triggerOnce>
         <h1 className="fw-bold mb-3">Technical Skills</h1>
         <p className="text-soft mb-5" style={{ maxWidth: 700 }}>
           Technologies I’ve used in real-world projects, ranked by expertise and
@@ -26,7 +26,7 @@ const Skills = () => {
           .sort((a, b) => b.level - a.level || b.used - a.used)
           .map((logo) => (
             <div className="col-6 col-md-4 col-lg-3" key={logo.logoName}>
-              <Fade direction="up">
+              <Fade triggerOnce direction="up">
                 <Card className="h-100 border-0 shadow-sm rounded-4 bg-body text-center">
                   <Card.Body className="p-4">
                     <img
