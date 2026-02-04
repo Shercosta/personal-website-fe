@@ -5,6 +5,33 @@ import { Link } from "react-router-dom";
 import LogoSlider from "./LogoSlider";
 import { Helmet } from "react-helmet-async";
 
+const services = [
+  {
+    title: "Technical & Team Leadership",
+    desc: "Leading engineers, reviewing code, setting technical direction, and making architectural decisions that scale.",
+  },
+  {
+    title: "Full-stack System Development",
+    desc: "Designing and building end-to-end systems, from user interfaces to backend services, databases, and deployment.",
+  },
+  {
+    title: "Enterprise & Business Applications",
+    desc: "Developing internal tools, CMS platforms, and business-critical systems used in real production environments.",
+  },
+  {
+    title: "Frontend & Cross-platform Engineering",
+    desc: "Building intuitive, accessible user experiences across web and mobile with a focus on performance and usability.",
+  },
+  {
+    title: "Backend & API Engineering",
+    desc: "Designing reliable APIs, data models, and business logic with an emphasis on scalability and long-term maintainability.",
+  },
+  {
+    title: "Web3 & Blockchain Systems",
+    desc: "Building systems that interact with blockchain networks, including secure wallet-to-wallet transactions and on-chain integrations.",
+  },
+];
+
 const Home = () => {
   return (
     <>
@@ -181,28 +208,7 @@ const Home = () => {
           <h3 className="fw-semibold mb-4">What I Work On</h3>
 
           <div className="row g-4">
-            {[
-              {
-                title: "Frontend Engineering",
-                desc: "Modern, accessible user interfaces using React and Vue.",
-              },
-              {
-                title: "Backend Engineering",
-                desc: "APIs, databases, and business logic built for reliability.",
-              },
-              {
-                title: "Fullstack Systems",
-                desc: "End-to-end solutions from UI to database and deployment.",
-              },
-              {
-                title: "Enterprise & Business Software",
-                desc: "Internal tools, CMS, and large-scale applications.",
-              },
-              {
-                title: "Team & Technical Leadership",
-                desc: "Leading developers, reviewing code, and shaping architecture.",
-              },
-            ].map((item) => (
+            {services.map((item) => (
               <div className="col-md-6" key={item.title}>
                 <Card className="h-100 border-0 shadow-sm rounded-4">
                   <Card.Body>
