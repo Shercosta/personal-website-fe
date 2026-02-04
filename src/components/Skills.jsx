@@ -32,7 +32,11 @@ const Skills = () => {
                     <img
                       src={logo.logoUrl}
                       alt={logo.logoName}
-                      style={{ height: 48 }}
+                      style={
+                        ["HTMX"].includes(logo.logoName)
+                          ? { height: 48, width: 48, objectFit: "contain" }
+                          : { height: 48 }
+                      }
                       className="mb-3"
                     />
 
