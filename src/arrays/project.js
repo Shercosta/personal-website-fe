@@ -76,7 +76,8 @@ let projects = [
     label: "Lavees Cosmedics",
     caption:
       "Information System for Lavees Beauty Clinic, with integration for payment gateway such as BCA, Gojek, etc.",
-    image: "https://i.imgur.com/JKWkWSJ.png",
+    image:
+      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/lavees.png",
   },
   {
     _id: {
@@ -86,7 +87,8 @@ let projects = [
     label: "PT Sarana Multi Infrastruktur",
     caption:
       "Internal Information System to manage, track, and resolve their loans for the partnering companies.",
-    image: "https://i.imgur.com/zDGukVh.png",
+    image:
+      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/site-visit-smi.png",
   },
   {
     _id: {
