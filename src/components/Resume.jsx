@@ -180,6 +180,28 @@ const ResumePage = () => {
             </div>
           ))}
       </div>
+
+      {/* TCC */}
+      <Hr />
+      <div>
+        <p className="f600">{cv.tccSection.title}</p>
+        <br />
+        <ul>
+          {cv.tccSection.items.map((tcc, tcc_idx) => (
+            <li className="mb-3" key={`${tcc_idx}-education`}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <div className="f700">{tcc.name}</div>
+                <div className="f600">{tcc.showDateText}</div>
+              </div>
+              <p className="f600">{tcc.boldLine}</p>
+              <p>
+                <em>{tcc.description}</em>
+              </p>
+              <a href={tcc.attachment_url}>{tcc.attachment_text}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
