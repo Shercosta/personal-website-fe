@@ -1,5 +1,6 @@
 import projects from "../arrays/project";
 import resume from "../arrays/resume";
+import logos from "../arrays/techs";
 import { Hr } from "./Common";
 
 const CompanyBlock = ({
@@ -51,6 +52,9 @@ const ResumePage = () => {
   const kp = projects
     .filter((proj) => proj.key_projects)
     .flatMap((proj) => proj.key_projects);
+
+  const techCategorySet = new Set(logos.map((logo) => logo.category));
+
   return (
     <div id="cv" className="a4-page">
       {/* Header */}

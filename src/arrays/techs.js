@@ -5,6 +5,7 @@ const logos = [
     logoName: "JavaScript",
     used: 5,
     level: 5,
+    category: "Programming Languages",
   },
   {
     logoUrl:
@@ -12,6 +13,7 @@ const logos = [
     logoName: "React.js",
     used: 4,
     level: 5,
+    category: "Frontend",
   },
   {
     logoUrl:
@@ -19,6 +21,7 @@ const logos = [
     logoName: "Node.js",
     used: 5,
     level: 5,
+    category: "Backend",
   },
   {
     logoUrl:
@@ -26,12 +29,14 @@ const logos = [
     logoName: "PostgreSQL",
     used: 5,
     level: 5,
+    category: "Databases",
   },
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     logoName: "Next.js",
     used: 5,
     level: 5,
+    category: "Frontend",
   },
   {
     logoUrl:
@@ -39,6 +44,7 @@ const logos = [
     logoName: "Vue.js",
     used: 4,
     level: 3,
+    category: "Frontend",
   },
   {
     logoUrl:
@@ -46,6 +52,7 @@ const logos = [
     logoName: "TypeScript",
     used: 5,
     level: 5,
+    category: "Programming Languages",
   },
   {
     logoUrl:
@@ -53,6 +60,7 @@ const logos = [
     logoName: "Laravel",
     used: 5,
     level: 5,
+    category: "Backend",
   },
   {
     logoUrl:
@@ -60,6 +68,7 @@ const logos = [
     logoName: "Go",
     used: 5,
     level: 4,
+    category: "Programming Languages",
   },
   {
     logoUrl:
@@ -67,6 +76,7 @@ const logos = [
     logoName: "MySQL",
     used: 1,
     level: 3,
+    category: "Databases",
   },
   {
     logoUrl:
@@ -74,12 +84,14 @@ const logos = [
     logoName: "MongoDB",
     used: 4,
     level: 4,
+    category: "Databases",
   },
   {
     logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg",
     logoName: "Nest Js",
     used: 4,
     level: 5,
+    category: "Backend",
   },
   {
     logoUrl:
@@ -87,6 +99,7 @@ const logos = [
     logoName: "Prisma",
     used: 5,
     level: 5,
+    category: "ORM / Data Tools",
   },
   {
     logoUrl:
@@ -94,6 +107,7 @@ const logos = [
     logoName: "Python",
     used: 2,
     level: 2,
+    category: "Programming Languages",
   },
   {
     logoUrl:
@@ -101,6 +115,7 @@ const logos = [
     logoName: "C++",
     used: 3,
     level: 2,
+    category: "Programming Languages",
   },
   {
     logoUrl:
@@ -108,6 +123,7 @@ const logos = [
     logoName: "EJS",
     used: 5,
     level: 5,
+    category: "Templating / Rendering",
   },
   {
     logoUrl:
@@ -115,6 +131,7 @@ const logos = [
     logoName: "HTML5",
     used: 5,
     level: 5,
+    category: "Frontend",
   },
   {
     logoUrl:
@@ -122,6 +139,7 @@ const logos = [
     logoName: "CSS3",
     used: 5,
     level: 5,
+    category: "Frontend",
   },
   {
     logoUrl:
@@ -129,12 +147,14 @@ const logos = [
     logoName: "Bootstrap",
     used: 5,
     level: 5,
+    category: "Styling / UI",
   },
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/redux.svg",
     logoName: "Redux",
     used: 2,
     level: 5,
+    category: "State Management",
   },
   {
     logoUrl:
@@ -142,6 +162,7 @@ const logos = [
     logoName: "Figma",
     used: 4,
     level: 3,
+    category: "Design Tools",
   },
   {
     logoUrl:
@@ -149,12 +170,14 @@ const logos = [
     logoName: "Balsamiq",
     used: 5,
     level: 4,
+    category: "Design Tools",
   },
   {
     logoUrl: "https://1000logos.net/wp-content/uploads/2020/08/Django-Logo.png",
     logoName: "Django",
     used: 1,
     level: 1,
+    category: "Backend",
   },
   {
     logoUrl:
@@ -162,18 +185,21 @@ const logos = [
     logoName: "HTMX",
     used: 1,
     level: 3,
+    category: "Frontend",
   },
   {
     logoUrl: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
     logoName: "SASS",
     used: 1,
     level: 3,
+    category: "Styling / UI",
   },
   {
     logoUrl: "https://avatars.githubusercontent.com/u/7552965?s=280&v=4",
     logoName: "Mongoose js",
     used: 3,
     level: 4,
+    category: "ORM / Data Tools",
   },
   {
     logoUrl:
@@ -181,6 +207,7 @@ const logos = [
     logoName: "JQuery",
     used: 3,
     level: 3,
+    category: "Frontend",
   },
   {
     logoUrl:
@@ -188,18 +215,21 @@ const logos = [
     logoName: "PHP",
     used: 5,
     level: 5,
+    category: "Programming Languages",
   },
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
     logoName: "Tailwind CSS",
     used: 5,
     level: 5,
+    category: "Styling / UI",
   },
   {
     logoUrl: "https://www.docker.com/favicon.ico",
     logoName: "Docker",
     used: 5,
     level: 3,
+    category: "DevOps / Infrastructure",
   },
   {
     logoUrl:
@@ -207,6 +237,7 @@ const logos = [
     logoName: "React Native",
     used: 3,
     level: 4,
+    category: "Mobile",
   },
   {
     logoUrl:
@@ -214,6 +245,7 @@ const logos = [
     logoName: "Hono",
     used: 5,
     level: 5,
+    category: "Backend",
   },
   {
     logoUrl:
@@ -221,6 +253,7 @@ const logos = [
     logoName: "MiniO Storage",
     used: 2,
     level: 1,
+    category: "DevOps / Infrastructure",
   },
   {
     logoUrl:
@@ -228,6 +261,7 @@ const logos = [
     logoName: "Strapi",
     used: 2,
     level: 3,
+    category: "Backend",
   },
 ];
 
