@@ -3,7 +3,7 @@ import projects from "../arrays/project";
 import resume from "../arrays/resume";
 import logos from "../arrays/techs";
 import { Hr } from "./Common";
-import html2pdf from "html2pdf.js";
+import { useRef } from "react";
 
 const CompanyBlock = ({
   companyName,
@@ -59,18 +59,11 @@ const ResumePage = () => {
     new Set(logos.map((logo) => logo.category)),
   );
 
-  function downloadPDF() {
-    const element = document.getElementById("cv");
-    html2pdf()
-      .from(element)
-      .set({
-        margin: 0,
-        filename: "resume.pdf",
-        html2canvas: { scale: 2 },
-        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-      })
-      .save();
-  }
+  const cvRef = useRef();
+
+  const downloadPDF = () => {
+    console.log("content to be printed");
+  };
 
   return (
     <div>
@@ -80,7 +73,7 @@ const ResumePage = () => {
         <span>Download CV</span>
       </button>
 
-      <div id="cv" className="a4-page">
+      <div ref={cvRef} id="cv" className="a4-page">
         {/* Header */}
         <div className="text-center">
           <p className="f700">
