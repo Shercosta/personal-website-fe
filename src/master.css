@@ -180,3 +180,30 @@ body::-webkit-scrollbar {
   width: 8%;
   min-width: 80px;
 }
+
+/* Resume ----------------------------------------------- */
+.a4-page {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  margin: auto;
+  background: white;
+  color: black;
+}
+
+#cv {
+  background-color: #ffffff;
+}
+
+#cv div,
+#cv p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.f600 {
+  font-weight: 600;
+}
+.f700 {
+  font-weight: 700;
+}

@@ -11,6 +11,7 @@ import Skills from "./components/Skills.jsx";
 import { Provider } from "react-redux";
 import store from "./store.js";
 import { HelmetProvider } from "react-helmet-async";
+import ResumePage from "./components/Resume.jsx";
 
 const app = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const app = createBrowserRouter([
       {
         path: "skills",
         element: <Skills />,
+      },
+      {
+        path: "resume",
+        element: <ResumePage />,
       },
     ],
   },
