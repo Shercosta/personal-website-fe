@@ -10,7 +10,7 @@ const logos = [
   {
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    logoName: "React.js",
+    logoName: "React Js",
     used: 4,
     level: 5,
     category: "Frontend",
@@ -18,7 +18,7 @@ const logos = [
   {
     logoUrl:
       "https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png",
-    logoName: "Node.js",
+    logoName: "Node Js",
     used: 5,
     level: 5,
     category: "Backend",
@@ -33,15 +33,15 @@ const logos = [
   },
   {
     logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
-    logoName: "Next.js",
+    logoName: "Next Js",
     used: 5,
     level: 5,
     category: "Frontend",
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
-    logoName: "Vue.js",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue Js_Logo_2.svg/1200px-Vue Js_Logo_2.svg.png",
+    logoName: "Vue Js",
     used: 4,
     level: 3,
     category: "Frontend",
@@ -105,8 +105,8 @@ const logos = [
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
     logoName: "Python",
-    used: 2,
-    level: 2,
+    used: 3,
+    level: 3,
     category: "Programming Languages",
   },
   {
@@ -196,7 +196,7 @@ const logos = [
   },
   {
     logoUrl: "https://avatars.githubusercontent.com/u/7552965?s=280&v=4",
-    logoName: "Mongoose js",
+    logoName: "Mongoose Js",
     used: 3,
     level: 4,
     category: "ORM / Data Tools",
@@ -262,6 +262,36 @@ const logos = [
     used: 2,
     level: 3,
     category: "Backend",
+  },
+  {
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Logo-redis_%28old%29.svg/3840px-Logo-redis_%28old%29.svg.png",
+    logoName: "Redis",
+    used: 4,
+    level: 4,
+    category: "Databases",
+  },
+  {
+    logoUrl:
+      "https://blog.stephane-robert.info/_astro/logo-sqlachemy.C2XppnSi_1tWRLX.webp",
+    logoName: "SQLAlchemy",
+    used: 2,
+    level: 2,
+    category: "ORM / Data Tools",
+  },
+  {
+    logoUrl: "https://cdn.worldvectorlogo.com/logos/fastapi.svg",
+    logoName: "FastAPI",
+    used: 2,
+    level: 2,
+    category: "Backend",
+  },
+  {
+    logoUrl: "https://cdn.worldvectorlogo.com/logos/expo-go-app.svg",
+    logoName: "Expo Go",
+    used: 2,
+    level: 2,
+    category: "Mobile",
   },
 ];
 
