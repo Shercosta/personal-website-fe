@@ -101,6 +101,18 @@ const ResumePage = () => {
                 })}
               </>
             );
+          } else {
+            return (
+              <CompanyBlock
+                key={`${company_idx}-x`}
+                companyName={company.companyName}
+                companyAlias={company.companyAlias || null}
+                jobTitle={company.jobTitle}
+                startDate={company.startDate}
+                endDate={company.endDate || null}
+                responsibilities={company.responsibilities}
+              />
+            );
           }
         })}
       </div>
