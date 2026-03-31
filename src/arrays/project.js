@@ -10,7 +10,7 @@ let projects = [
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxwear.jpg",
     link: "https://drxwear.com",
-    repos: [
+    key_projects: [
       {
         title: "DRX Wear CMS & API",
         items: [
@@ -33,7 +33,7 @@ let projects = [
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/drxtoken.jpg",
     link: "https://drxtoken.com",
-    repos: [
+    key_projects: [
       {
         title: "DRX Token - Landing Page & CMS",
         items: [
@@ -60,7 +60,7 @@ let projects = [
       "Internal System for Bursa Efek Indonesia, built to help maintain and keep an eye on the stock market, emitens, and companies willing to change their market/company status.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/idx-bei.jpg",
-    repos: [
+    key_projects: [
       {
         title: "PT Bursa Efek Indonesia",
         items: [
@@ -90,7 +90,7 @@ let projects = [
       "Information System for Mandiri Utama Finance's employee to keep track of potential frauds, losses, and how to resolve them regarding their credit services.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/muf.jpg",
-    repos: [
+    key_projects: [
       {
         title: "PT Mandiri Utama Finance - ORM System",
         items: [
@@ -125,7 +125,7 @@ let projects = [
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/sportnet.jpg",
     link: "https://drxsportnet.id",
-    repos: [
+    key_projects: [
       {
         title: "DRX - Sportsnet",
         items: [
@@ -181,7 +181,7 @@ let projects = [
       "Public and Internal Information System for the government of Semarang City to resolve and track the progress of the citizens' public complaints.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/sapambakita.jpg",
-    repos: [
+    key_projects: [
       {
         title:
           "Sapa Mbak Ita (Governor Public Reports Service for Semarang Region)",
@@ -211,7 +211,7 @@ let projects = [
       "Information System for Lavees Beauty Clinic, with integration for payment gateway such as BCA, Gojek, etc.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/lavees.png",
-    repos: [
+    key_projects: [
       {
         title: "Lavees Clinic Beauty & Wellness",
         items: [
@@ -260,7 +260,7 @@ let projects = [
       "Internal Information System to manage, track, and resolve their loans for the partnering companies.",
     image:
       "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/site-visit-smi.png",
-    repos: [
+    key_projects: [
       {
         title: "PT Sarana Multi Infrastruktur (Persero) - 'Site Visit'",
         items: [
