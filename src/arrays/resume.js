@@ -86,8 +86,11 @@ const resume = {
       },
     ],
   },
+  keyProjectsSection: {
+    title: "Key Projects",
+  },
   educationSection: {
-    name: "Education",
+    title: "Education",
     items: [
       {
         show: true,
@@ -101,7 +104,7 @@ const resume = {
     ],
   },
   tccSection: {
-    name: "Training, Courses, and Certificates",
+    title: "Training, Courses, and Certificates",
     items: [
       {
         name: "ITERA ENGLISH PROFICIENCY TEST",

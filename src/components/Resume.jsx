@@ -1,3 +1,4 @@
+import projects from "../arrays/project";
 import resume from "../arrays/resume";
 import { Hr } from "./Common";
 
@@ -47,6 +48,9 @@ const CompanyBlock = ({
 
 const ResumePage = () => {
   const cv = resume;
+  const kp = projects
+    .filter((proj) => proj.key_projects)
+    .flatMap((proj) => proj.key_projects);
   return (
     <div id="cv" className="a4-page">
       {/* Header */}
@@ -115,6 +119,66 @@ const ResumePage = () => {
             );
           }
         })}
+      </div>
+
+      {/* Projects */}
+      <Hr />
+      <div>
+        <p className="f600">{cv.keyProjectsSection.title}</p>
+        <br />
+        <ol>
+          {kp.map((proj, idx) => (
+            <div key={idx} className="mb-3">
+              <li>
+                <p className="f700">{proj.title}</p>
+                <ul>
+                  {proj.items.map((item, item_idx) => (
+                    <li style={{ textAlign: "justify" }} key={item_idx}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </li>
+              <p
+                className="mt-1"
+                style={{ textAlign: "justify", color: "#696161" }}
+              >
+                <b>Technologies Used: </b> {proj.technologiesUsed.join(", ")}
+              </p>
+            </div>
+          ))}
+        </ol>
+      </div>
+
+      {/* Education */}
+      <Hr />
+      <div>
+        <p className="f600">{cv.educationSection.title}</p>
+        <br />
+        {cv.educationSection.items
+          .filter((item) => item.show)
+          .map((edu, edu_idx) => (
+            <div key={`${edu_idx}-education`}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <div className="f700">{edu.schoolName}</div>
+                <div className="f600">
+                  {new Intl.DateTimeFormat("en-US", {
+                    month: "long",
+                    year: "numeric",
+                  }).format(edu.startDate)}{" "}
+                  -{" "}
+                  {edu.endDate
+                    ? new Intl.DateTimeFormat("en-US", {
+                        month: "long",
+                        year: "numeric",
+                      }).format(edu.endDate)
+                    : "Present"}
+                </div>
+              </div>
+              <p>{edu.label}</p>
+              <p>GPA: {edu.gpa_score}</p>
+            </div>
+          ))}
       </div>
     </div>
   );
