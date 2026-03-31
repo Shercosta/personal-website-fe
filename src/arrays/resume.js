@@ -80,4 +80,44 @@ const resume = {
       },
     ],
   },
+  educationSection: {
+    name: "Education",
+    items: [
+      {
+        show: true,
+        schoolName: "Institut Teknologi Sumatera",
+        startDate: new Date("2019-09-01"),
+        endDate: new Date("2024-01-01"),
+        label: "Bachelor of Informatics Engineering",
+        gpa_score: "3.35",
+        gpa_out_of: "4",
+      },
+    ],
+  },
+  tccSection: {
+    name: "Training, Courses, and Certificates",
+    items: [
+      {
+        name: "ITERA ENGLISH PROFICIENCY TEST",
+        boldLine: "Stardardized English Proficiency Test with TOEFL",
+        description:
+          "Listening Comprehension, Grammar & Writing Expression, Reading Comprehension with a score of 583.",
+        attachment_url:
+          "https://drive.google.com/file/d/1e2gTvd5Cy_3k577m8nMei1XbXbRED3tP/view?usp=sharing",
+        attachment_text: "Certificate PDF",
+        showDateText: "January 2024",
+      },
+      {
+        name: "The Complete 2023 Web Development Bootcamp",
+        boldLine: "Become a Full-Stack Web Developer with just ONE course",
+        description:
+          "HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps.",
+        attachment_url:
+          "https://drive.google.com/file/d/1qTS8rK13_KzDGS7il06h6gpk-V05GKNb/view?usp=drive_link",
+        attachment_text:
+          "The Complete 2023 Web Development Bootcamp Certificate PDF",
+        showDateText: "January - April 2023",
+      },
+    ],
+  },
 };
