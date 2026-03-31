@@ -207,3 +207,43 @@ body::-webkit-scrollbar {
 .f700 {
   font-weight: 700;
 }
+
+.floating-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+  color: #000000;
+
+  box-shadow: 0 8px 20px rgba(133, 114, 114, 0.25);
+
+  transition: all 0.2s ease;
+}
+
+.floating-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+}
+
+.floating-btn:active {
+  transform: scale(0.95);
+}
+
+.floating-btn.extended {
+  width: auto;
+  padding: 0 16px;
+  border-radius: 999px;
+  gap: 8px;
+}
