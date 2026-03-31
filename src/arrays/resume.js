@@ -2,6 +2,12 @@ const resume = {
   name: "Geizka Rozilia Ruicosta",
   suffix: "S. Kom",
   skillHighlights: ["Fullstack", "Frontend", "Backend", "Software Engineer"],
+  location: "Jakarta Timur, DKI Jakarta, Indonesia",
+  country_code: "+62",
+  phone_number: "895333079571",
+  email: "shercostagp@gmail.com",
+  linkedin_url: "https://www.linkedin.com/in/geizka-ruicosta-5a3620144/",
+  web_url: "https://shercosta.netlify.app/",
   aboutMeSection: {
     title: "About Me",
     description:
