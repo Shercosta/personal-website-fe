@@ -129,6 +129,9 @@ const resume = {
       },
     ],
   },
+  expertiseSection: {
+    title: "Expertises",
+  },
 };
 
 export default resume;

@@ -15,10 +15,10 @@ const CompanyBlock = ({
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <div className="f700">
+        <div className="f600">
           {companyName} {companyAlias ? `"${companyAlias}"` : ""}
         </div>
-        <div className="f600">
+        <div className="f700">
           {new Intl.DateTimeFormat("en-US", {
             month: "long",
             year: "numeric",
@@ -53,16 +53,18 @@ const ResumePage = () => {
     .filter((proj) => proj.key_projects)
     .flatMap((proj) => proj.key_projects);
 
-  const techCategorySet = new Set(logos.map((logo) => logo.category));
+  const techCategorySet = Array.from(
+    new Set(logos.map((logo) => logo.category)),
+  );
 
   return (
     <div id="cv" className="a4-page">
       {/* Header */}
       <div className="text-center">
-        <p className="f700">
+        <p className="f600">
           {cv.name}, {cv.suffix}
         </p>
-        <p className="f600">{cv.skillHighlights.join(" | ")}</p>
+        <p className="f700">{cv.skillHighlights.join(" | ")}</p>
         <p>
           {cv.location} | {cv.country_code} {cv.phone_number} | {cv.email}
         </p>
@@ -80,7 +82,7 @@ const ResumePage = () => {
       {/* About Me */}
       <Hr />
       <div>
-        <p className="f600">{cv.aboutMeSection.title}</p>
+        <p className="f700">{cv.aboutMeSection.title}</p>
         <br />
         <p style={{ textAlign: "justify" }}>{cv.aboutMeSection.description}</p>
       </div>
@@ -88,7 +90,7 @@ const ResumePage = () => {
       {/* Work Experience */}
       <Hr />
       <div>
-        <p className="f600">{cv.workingExperiencesSection.title}</p>
+        <p className="f700">{cv.workingExperiencesSection.title}</p>
         <br />
         {cv.workingExperiencesSection.items.map((company, company_idx) => {
           if (company.companies) {
@@ -128,13 +130,13 @@ const ResumePage = () => {
       {/* Projects */}
       <Hr />
       <div>
-        <p className="f600">{cv.keyProjectsSection.title}</p>
+        <p className="f700">{cv.keyProjectsSection.title}</p>
         <br />
         <ol>
           {kp.map((proj, idx) => (
             <div key={idx} className="mb-3">
               <li>
-                <p className="f700">{proj.title}</p>
+                <p className="f600">{proj.title}</p>
                 <ul>
                   {proj.items.map((item, item_idx) => (
                     <li style={{ textAlign: "justify" }} key={item_idx}>
@@ -157,15 +159,15 @@ const ResumePage = () => {
       {/* Education */}
       <Hr />
       <div>
-        <p className="f600">{cv.educationSection.title}</p>
+        <p className="f700">{cv.educationSection.title}</p>
         <br />
         {cv.educationSection.items
           .filter((item) => item.show)
           .map((edu, edu_idx) => (
             <div key={`${edu_idx}-education`}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <div className="f700">{edu.schoolName}</div>
-                <div className="f600">
+                <div className="f600">{edu.schoolName}</div>
+                <div className="f700">
                   {new Intl.DateTimeFormat("en-US", {
                     month: "long",
                     year: "numeric",
@@ -188,16 +190,16 @@ const ResumePage = () => {
       {/* TCC */}
       <Hr />
       <div>
-        <p className="f600">{cv.tccSection.title}</p>
+        <p className="f700">{cv.tccSection.title}</p>
         <br />
         <ul>
           {cv.tccSection.items.map((tcc, tcc_idx) => (
             <li className="mb-3" key={`${tcc_idx}-education`}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <div className="f700">{tcc.name}</div>
-                <div className="f600">{tcc.showDateText}</div>
+                <div className="f600">{tcc.name}</div>
+                <div className="f700">{tcc.showDateText}</div>
               </div>
-              <p className="f600">{tcc.boldLine}</p>
+              <p className="f700">{tcc.boldLine}</p>
               <p>
                 <em>{tcc.description}</em>
               </p>
@@ -205,6 +207,29 @@ const ResumePage = () => {
             </li>
           ))}
         </ul>
+      </div>
+
+      {/* Expertise */}
+      <Hr />
+      <div>
+        <p className="f700">{cv.expertiseSection.title}</p>
+        <br />
+        <div style={{ display: "flex" }}>
+          <div className="row">
+            {techCategorySet.map((category, category_idx) => (
+              <div className="col-4 mb-3" key={`${category_idx}-category`}>
+                <p className="f600">{category}:</p>
+                <ul>
+                  {logos
+                    .filter((logo) => logo.category === category)
+                    .map((logo, logo_idx) => (
+                      <li key={`${logo_idx}-logo`}>{logo.logoName}</li>
+                    ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
