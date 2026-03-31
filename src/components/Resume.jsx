@@ -15,10 +15,10 @@ const CompanyBlock = ({
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <div className="f600">
+        <div className="f700">
           {companyName} {companyAlias ? `"${companyAlias}"` : ""}
         </div>
-        <div className="f700">
+        <div className="f600">
           {new Intl.DateTimeFormat("en-US", {
             month: "long",
             year: "numeric",
@@ -39,8 +39,8 @@ const CompanyBlock = ({
         </p>
       )}
       <ul>
-        {responsibilities.map((responsibility) => (
-          <li>{responsibility}</li>
+        {responsibilities.map((responsibility, responsibility_idx) => (
+          <li key={responsibility_idx}>{responsibility}</li>
         ))}
       </ul>
     </div>
@@ -61,10 +61,10 @@ const ResumePage = () => {
     <div id="cv" className="a4-page">
       {/* Header */}
       <div className="text-center">
-        <p className="f600">
+        <p className="f700">
           {cv.name}, {cv.suffix}
         </p>
-        <p className="f700">{cv.skillHighlights.join(" | ")}</p>
+        <p className="f600">{cv.skillHighlights.join(" | ")}</p>
         <p>
           {cv.location} | {cv.country_code} {cv.phone_number} | {cv.email}
         </p>
@@ -136,8 +136,8 @@ const ResumePage = () => {
           {kp.map((proj, idx) => (
             <div key={idx} className="mb-3">
               <li>
-                <p className="f600">{proj.title}</p>
-                <ul>
+                <p className="f700">{proj.title}</p>
+                <ul style={{ listStyleType: "initial" }}>
                   {proj.items.map((item, item_idx) => (
                     <li style={{ textAlign: "justify" }} key={item_idx}>
                       {item}
@@ -149,7 +149,8 @@ const ResumePage = () => {
                 className="mt-1"
                 style={{ textAlign: "justify", color: "#696161" }}
               >
-                <b>Technologies Used: </b> {proj.technologiesUsed.join(", ")}
+                <span className="f600">Technologies Used: </span>{" "}
+                {proj.technologiesUsed.join(", ")}
               </p>
             </div>
           ))}
@@ -166,8 +167,8 @@ const ResumePage = () => {
           .map((edu, edu_idx) => (
             <div key={`${edu_idx}-education`}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <div className="f600">{edu.schoolName}</div>
-                <div className="f700">
+                <div className="f700">{edu.schoolName}</div>
+                <div className="f600">
                   {new Intl.DateTimeFormat("en-US", {
                     month: "long",
                     year: "numeric",
@@ -196,14 +197,16 @@ const ResumePage = () => {
           {cv.tccSection.items.map((tcc, tcc_idx) => (
             <li className="mb-3" key={`${tcc_idx}-education`}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <div className="f600">{tcc.name}</div>
-                <div className="f700">{tcc.showDateText}</div>
+                <div className="f700">{tcc.name}</div>
+                <div className="f600">{tcc.showDateText}</div>
               </div>
-              <p className="f700">{tcc.boldLine}</p>
+              <p className="f600">{tcc.boldLine}</p>
               <p>
                 <em>{tcc.description}</em>
               </p>
-              <a href={tcc.attachment_url}>{tcc.attachment_text}</a>
+              <a target="_blank" href={tcc.attachment_url}>
+                {tcc.attachment_text}
+              </a>
             </li>
           ))}
         </ul>
