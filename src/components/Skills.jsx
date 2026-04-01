@@ -1,6 +1,7 @@
 import { Container, Card, Badge } from "react-bootstrap";
 import logos from "../arrays/techs";
 import { Fade } from "react-awesome-reveal";
+import { useState } from "react";
 
 const levelLabel = {
   5: "Expert",
@@ -11,6 +12,7 @@ const levelLabel = {
 };
 
 const Skills = () => {
+  const [copiable, setCopiable] = useState(false);
   return (
     <Container className="py-5">
       <Fade triggerOnce>
@@ -20,6 +22,32 @@ const Skills = () => {
           frequency of use.
         </p>
       </Fade>
+
+      <div>
+        <Fade triggerOnce direction="up">
+          <div className="d-flex">
+            <h5 className="fw-semibold">Show copiable skills</h5>
+            <input
+              className="form-check-input ms-3"
+              type="checkbox"
+              id="copiable"
+              value={copiable}
+              onChange={(e) => setCopiable(e.target.checked)}
+            />
+          </div>
+        </Fade>
+      </div>
+
+      {copiable && (
+        <div className="my-3 p-3 rounded-4 bg-secondary">
+          <span>
+            {logos
+              .sort((a, b) => b.level - a.level || b.used - a.used)
+              .map((logo) => logo.logoName)
+              .join(", ")}
+          </span>
+        </div>
+      )}
 
       <div className="row g-4">
         {logos
