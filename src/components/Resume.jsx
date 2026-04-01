@@ -37,7 +37,7 @@ const CompanyBlock = ({
       </div>
       <p>{jobTitle}</p>
       {outsourcedBy && (
-        <p style={{ color: "gray" }}>
+        <p style={{ color: "#696161" }}>
           <i>Outsourced by {outsourcedBy}</i>
         </p>
       )}
