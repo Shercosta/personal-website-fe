@@ -35,6 +35,22 @@ const resume = {
         ],
       },
       {
+        companyName: "Aurvia Technologies",
+        jobTitle: "Software Engineering Manager",
+        startDate: new Date("2026-03-01"),
+        responsibilities: [
+          "Lead and mentor a team of developers and interns in building an AI-native data analysis platform that transforms raw data into actionable insights, dashboards, and reports.",
+          "Oversee the development of AI-driven features, including automated data processing, insight generation, and decision-support systems.",
+          "Architect and implement scalable full-stack solutions, covering frontend, backend services, database design, and API development.",
+          "Integrate AI/ML models and external AI services into the platform to enable real-time analytics and intelligent recommendations.",
+          "Define task priorities and delegate work based on complexity, ensuring efficient delivery while upskilling junior developers.",
+          "Establish code quality standards, conduct reviews, and enforce best practices across the engineering team.",
+          "Develop and execute testing strategies to ensure reliability, accuracy, and performance of AI-generated outputs.",
+          "Prepare and present weekly progress reports, aligning technical delivery with product goals and business impact.",
+          "Solve complex technical problems while guiding the team in implementing AI-powered features effectively.",
+        ],
+      },
+      {
         companyName: "PT Berkat Indah Garment",
         companyAlias: "DRX",
         jobTitle: "Fullstack Developer",
