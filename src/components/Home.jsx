@@ -122,7 +122,7 @@ const Home = () => {
                   GitHub
                 </a>
 
-                <a
+                {/* <a
                   href="https://docs.google.com/document/d/1gzECrr1WiWP0h8FK6lwOvex1rZfxPgiY6sU7ZXF9WPw/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
@@ -130,7 +130,11 @@ const Home = () => {
                 >
                   <FaFileLines className="me-2" />
                   CV
-                </a>
+                </a> */}
+                <Link to="/resume" className="btn btn-outline-secondary">
+                  <FaFileLines className="me-2" />
+                  CV
+                </Link>
 
                 <Link
                   to="/experience"
