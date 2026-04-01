@@ -40,7 +40,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue Js_Logo_2.svg/1200px-Vue Js_Logo_2.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/3840px-Vue.js_Logo_2.svg.png",
     logoName: "Vue Js",
     used: 4,
     level: 3,
@@ -111,7 +111,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1280px-ISO_C%2B%2B_Logo.svg.png",
     logoName: "C++",
     used: 3,
     level: 2,
@@ -127,7 +127,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/500px-HTML5_logo_and_wordmark.svg.png",
     logoName: "HTML5",
     used: 5,
     level: 5,
@@ -143,7 +143,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png",
     logoName: "Bootstrap",
     used: 5,
     level: 5,
@@ -233,7 +233,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/3840px-React-icon.svg.png",
     logoName: "React Native",
     used: 3,
     level: 4,
