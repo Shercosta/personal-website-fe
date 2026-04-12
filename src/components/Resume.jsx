@@ -65,13 +65,7 @@ const ResumePage = () => {
   const cvRef = useRef();
 
   const downloadPDF = () => {
-    setShowFloatButton(false);
-    setTimeout(() => {
-      window.print();
-    }, 500);
-    setTimeout(() => {
-      setShowFloatButton(true);
-    }, 1000);
+    window.print();
   };
 
   return (
@@ -83,7 +77,10 @@ const ResumePage = () => {
       <div>
         {/* floating download button */}
         {showFloatButton && (
-          <button onClick={downloadPDF} className="floating-btn extended">
+          <button
+            onClick={downloadPDF}
+            className="floating-btn extended no-print"
+          >
             <FaArrowDown />
             <span>Download CV</span>
           </button>

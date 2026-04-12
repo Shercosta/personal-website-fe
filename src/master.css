@@ -225,8 +225,8 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
 
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000f7e;
+  color: #ffffff;
 
   box-shadow: 0 8px 20px rgba(133, 114, 114, 0.25);
 
@@ -246,4 +246,10 @@ body::-webkit-scrollbar {
   padding: 0 16px;
   border-radius: 999px;
   gap: 8px;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
 }
