@@ -8,7 +8,7 @@ let projects = [
     caption:
       "A backend-first, microservice-based Bank as a Service (BaaS) platform designed to help partner banks streamline customer onboarding and accelerate digital banking adoption.",
     image:
-      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/olob.jpg",
+      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/olob.jpg",
     key_projects: [
       {
         title: "OLOB",
