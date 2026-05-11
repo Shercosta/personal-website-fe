@@ -25,6 +25,7 @@ const resume = {
             jobTitle: "Fullstack Developer",
             startDate: new Date("2026-02-01"),
             responsibilities: [
+              "Created Bank as a Service 'BaaS'",
               "Develop and maintain APIs",
               "Implement microservices architecture in backend development for application practice and scalability",
               "Convert Figma design to frontend application with feasible UI/UX",

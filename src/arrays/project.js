@@ -1,6 +1,55 @@
 let projects = [
   {
     _id: {
+      $oid: "btn",
+    },
+    highlight: true,
+    label: "Bank as a Service",
+    caption:
+      "A backend-first, microservice-based Bank as a Service (BaaS) platform designed to help partner banks streamline customer onboarding and accelerate digital banking adoption.",
+    image:
+      "https://raw.githubusercontent.com/Shercosta/personal-website-fe/refs/heads/main/public/projects/olob.jpg",
+    key_projects: [
+      {
+        title: "OLOB",
+        items: [
+          "Built scalable and secure APIs to simplify customer onboarding and account registration workflows.",
+          "Collaborated on security-focused initiatives including Penetration Testing, Performance Testing, OTP integration, and system hardening.",
+          "Contributed to both frontend and backend development, delivering features such as real-time reporting dashboards and admin management tools.",
+        ],
+        technologiesUsed: [
+          "Typescript",
+          "MiniO",
+          "PostgreSQL",
+          "Postman",
+          "Redis",
+          "Node Js",
+          "React Js",
+        ],
+      },
+      {
+        title: "Bank as a Service",
+        items: [
+          "Expanded the OLOB platform into a scalable Bank as a Service (BaaS) solution, enabling partner banks to onboard customers more efficiently through digital channels.",
+          "Integrated third-party services including OCR, Anti-Money Laundering (AML), and Counter Financing of Terrorism (CFT) systems to strengthen compliance and identity verification processes.",
+          "Developed secure backend services and APIs to support customer registration, document verification, and onboarding workflows.",
+          "Collaborated closely with cross-functional teams to ensure seamless integration between banking services and external providers.",
+          "Improved operational efficiency by helping automate onboarding and verification processes for partner institutions.",
+          "Contributed to system reliability and security through testing, monitoring, and performance optimization initiatives.",
+        ],
+        technologiesUsed: [
+          "Typescript",
+          "MiniO",
+          "PostgreSQL",
+          "Postman",
+          "Redis",
+          "Node Js",
+        ],
+      },
+    ],
+  },
+  {
+    _id: {
       $oid: "drxwear",
     },
     highlight: true,
