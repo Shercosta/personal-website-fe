@@ -42,7 +42,7 @@ const Skills = () => {
         <div className="my-3 p-3 rounded-4 bg-secondary">
           <span>
             {logos
-              .sort((a, b) => a.logoName.localeCompare(b.logoName))
+              // .sort((a, b) => a.logoName.localeCompare(b.logoName))
               .map((logo) => logo.logoName)
               .join(", ")}
           </span>

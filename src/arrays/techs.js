@@ -1,7 +1,7 @@
 const logos = [
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/960px-JavaScript-logo.png",
     logoName: "JavaScript",
     used: 5,
     level: 5,
@@ -9,7 +9,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "https://images.icon-icons.com/2415/PNG/512/react_original_wordmark_logo_icon_146375.png",
     logoName: "React Js",
     used: 4,
     level: 5,
@@ -25,7 +25,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/500px-Postgresql_elephant.svg.png",
     logoName: "PostgreSQL",
     used: 5,
     level: 5,
@@ -48,7 +48,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1280px-Typescript_logo_2020.svg.png",
     logoName: "TypeScript",
     used: 5,
     level: 5,
@@ -56,7 +56,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+      "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
     logoName: "Laravel",
     used: 5,
     level: 5,
@@ -64,7 +64,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
+      "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png",
     logoName: "Go",
     used: 5,
     level: 4,
@@ -135,7 +135,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1280px-CSS3_logo.svg.png",
     logoName: "CSS3",
     used: 5,
     level: 5,
