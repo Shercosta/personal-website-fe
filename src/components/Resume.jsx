@@ -259,6 +259,7 @@ const ResumePage = () => {
                     <ul>
                       {logos
                         .filter((logo) => logo.category === category)
+                        .sort((logoA, logoB) => logoB.level - logoA.level)
                         .map((logo, logo_idx) => (
                           <li key={`${logo_idx}-logo`}>{logo.logoName}</li>
                         ))}

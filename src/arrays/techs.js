@@ -96,8 +96,8 @@ const logos = [
     logoUrl:
       "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png",
     logoName: "MySQL",
-    used: 1,
-    level: 3,
+    used: 5,
+    level: 5,
     category: "Databases",
   },
   {
@@ -125,6 +125,29 @@ const logos = [
   },
   {
     logoUrl:
+      "https://miro.medium.com/v2/resize:fit:1200/1*XBvxUxqycRC8B8KGCuzJVw.png",
+    logoName: "GORM",
+    used: 5,
+    level: 4,
+    category: "ORM / Data Tools",
+  },
+  {
+    logoUrl:
+      "https://iconlogovector.com/uploads/images/2024/09/lg-66dc0d8425667-Drizzle-ORM.webp",
+    logoName: "Drizzle",
+    used: 3,
+    level: 3,
+    category: "ORM / Data Tools",
+  },
+  {
+    logoUrl: "https://knexjs.org/favicon.svg",
+    logoName: "Knex",
+    used: 1,
+    level: 1,
+    category: "ORM / Data Tools",
+  },
+  {
+    logoUrl:
       "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-svg-download-png-2945099.png?f=webp",
     logoName: "Python",
     used: 3,
@@ -138,14 +161,6 @@ const logos = [
     used: 3,
     level: 2,
     category: "Programming Languages",
-  },
-  {
-    logoUrl:
-      "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_ejs_icon_130626.png",
-    logoName: "EJS",
-    used: 5,
-    level: 5,
-    category: "Templating / Rendering",
   },
   {
     logoUrl:
@@ -176,6 +191,13 @@ const logos = [
     logoName: "Redux",
     used: 2,
     level: 5,
+    category: "State Management",
+  },
+  {
+    logoUrl: "https://avatars.githubusercontent.com/u/160464953?s=200&v=4",
+    logoName: "Zustand",
+    used: 2,
+    level: 4,
     category: "State Management",
   },
   {
@@ -314,6 +336,14 @@ const logos = [
     used: 2,
     level: 2,
     category: "Mobile",
+  },
+  {
+    logoUrl:
+      "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_ejs_icon_130626.png",
+    logoName: "EJS",
+    used: 5,
+    level: 5,
+    category: "Templating / Rendering",
   },
 ];
 
