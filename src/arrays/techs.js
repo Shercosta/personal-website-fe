@@ -55,16 +55,14 @@ const logos = [
     category: "Programming Languages",
   },
   {
-    logoUrl:
-      "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
+    logoUrl: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
     logoName: "Laravel",
     used: 5,
     level: 5,
     category: "Backend",
   },
   {
-    logoUrl:
-      "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png",
+    logoUrl: "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png",
     logoName: "Go",
     used: 5,
     level: 4,
@@ -103,7 +101,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+      "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-svg-download-png-2945099.png?f=webp",
     logoName: "Python",
     used: 3,
     level: 3,
