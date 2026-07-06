@@ -39,6 +39,7 @@ const resume = {
         companyName: "Aurvia Technologies",
         jobTitle: "Software Engineering Manager",
         startDate: new Date("2026-03-01"),
+        endDate: new Date("2026-07-07"),
         responsibilities: [
           "Lead and mentor a team of developers and interns in building an AI-native data analysis platform that transforms raw data into actionable insights, dashboards, and reports.",
           "Oversee the development of AI-driven features, including automated data processing, insight generation, and decision-support systems.",
