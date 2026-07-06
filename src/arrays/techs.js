@@ -20,7 +20,7 @@ const logos = [
       "https://upload.wikimedia.org/wikipedia/commons/6/67/Angular_gradient_logo.png",
     logoName: "Angular",
     used: 1,
-    level: 1,
+    level: 2,
     category: "Frontend",
   },
   {
@@ -29,6 +29,22 @@ const logos = [
     logoName: "Node Js",
     used: 5,
     level: 5,
+    category: "Backend",
+  },
+  {
+    logoUrl:
+      "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/csharp.png",
+    logoName: "C#",
+    used: 1,
+    level: 1,
+    category: "Programming Languages",
+  },
+  {
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/960px-.NET_Core_Logo.svg.png",
+    logoName: "ASP.NET Core",
+    used: 1,
+    level: 1,
     category: "Backend",
   },
   {
