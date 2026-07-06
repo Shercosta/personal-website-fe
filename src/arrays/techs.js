@@ -17,7 +17,7 @@ const logos = [
   },
   {
     logoUrl:
-      "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-svg-download-png-2945099.png?f=webp",
+      "https://upload.wikimedia.org/wikipedia/commons/6/67/Angular_gradient_logo.png",
     logoName: "Angular",
     used: 1,
     level: 1,
