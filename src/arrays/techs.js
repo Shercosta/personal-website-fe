@@ -17,6 +17,14 @@ const logos = [
   },
   {
     logoUrl:
+      "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-svg-download-png-2945099.png?f=webp",
+    logoName: "Angular",
+    used: 1,
+    level: 1,
+    category: "Frontend",
+  },
+  {
+    logoUrl:
       "https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png",
     logoName: "Node Js",
     used: 5,
