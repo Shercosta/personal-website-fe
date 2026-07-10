@@ -13,6 +13,7 @@ let projects = [
       {
         title: "OLOB",
         items: [
+          "Used by Bale by BTN, Indosat, Blu BCA",
           "Built scalable and secure APIs to simplify customer onboarding and account registration workflows.",
           "Collaborated on security-focused initiatives including Penetration Testing, Performance Testing, OTP integration, and system hardening.",
           "Contributed to both frontend and backend development, delivering features such as real-time reporting dashboards and admin management tools.",
@@ -20,7 +21,7 @@ let projects = [
         technologiesUsed: [
           "Typescript",
           "MiniO",
-          "PostgreSQL",
+          "MySQL",
           "Postman",
           "Redis",
           "Node Js",
@@ -40,7 +41,7 @@ let projects = [
         technologiesUsed: [
           "Typescript",
           "MiniO",
-          "PostgreSQL",
+          "MySQL",
           "Postman",
           "Redis",
           "Node Js",
